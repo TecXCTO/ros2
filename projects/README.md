@@ -1,4 +1,5 @@
-Running a full Linux system inside Termux using an environment like Ubuntu via proot-distro opens up incredible possibilities. Because Termux runs on your mobile processor (usually ARM64 architecture) and lacks native hardware-accelerated graphics (like direct GPU access for Gazebo or RViz), you must focus entirely on headless computation, logic engines, CLI applications, and networked robotics.
+Running a full Linux system 
+inside Termux using an environment like Ubuntu via proot-distro opens up incredible possibilities. Because Termux runs on your mobile processor (usually ARM64 architecture) and lacks native hardware-accelerated graphics (like direct GPU access for Gazebo or RViz), you must focus entirely on headless computation, logic engines, CLI applications, and networked robotics.
 The hardware in modern mobile devices is exceptionally fast, making Termux an incredible environment for building high-performance, algorithmic backend nodes.
 ------------------------------
 ## Key Technical Architecture Limitations
@@ -12,6 +13,7 @@ Before choosing a project, understand the boundaries of Termux + Ubuntu:
 ------------------------------
 ## Categorized List of Maximum Possible ROS 2 Projects on Termux
 Here are the highest-utility projects you can build, run, and execute completely within your Termux-Ubuntu environment, ranging from basic algorithms to production-grade network systems.
+
 ## 1. Networked Robotic Communication Nodes (The Multi-Device Brain)
 You can turn your phone into a core computational hub that processes data for physical hardware located elsewhere on your network.
 
@@ -22,6 +24,7 @@ You can turn your phone into a core computational hub that processes data for ph
 * What it does: Use your phone as a portable command center. You type raw geometric movements (geometry_msgs/msg/Twist) into your Termux CLI, sending commands over the local Wi-Fi router to drive a physical ROS 2-enabled robot vacuum or RC car.
 
 ## 2. Advanced Algorithmic & Processing Modules (Headless Heavy-Lifters)
+
 Modern mobile processors have massive compute performance. You can use this power to run heavy calculations that weak microcontroller boards can't handle.
 
 * Project Example: Headless 2D Lidar Mapping & Grid Processing
@@ -50,15 +53,16 @@ Since you cannot open standard desktop windows, you can configure your nodes to 
 ------------------------------
 ## Step-by-Step Project Setup inside Termux-Ubuntu
 Let's configure a Web-Accessible Robotic Telemetry Server project. This project combines a high-speed data node with a lightweight, browser-accessible diagnostic portal.
+
 ## Step 1: Install Dependencies inside your proot Ubuntu
 Ensure your Ubuntu layer is fully upgraded and ready for network programming:
-
+```
 apt update && apt upgrade -y
 apt install python3-pip python3-flask -y
-
+```
 ## Step 2: Create the Web-Bridge Code
 Create a file named telemetry_web_node.py inside your ROS 2 package layout. This node spins up a background thread that hosts a local micro-web server.
-
+```
 #!/usr/bin/env python3import threadingimport rclpyfrom rclpy.node import Nodefrom std_msgs.msg import Stringfrom flask import Flask, jsonify
 # Initialize Flash application for web hostingapp = Flask(__name__)latest_system_data = "No status received yet."
 
@@ -98,7 +102,7 @@ def main(args=None):
         rclpy.shutdown()
 if __name__ == '__main__':
     main()
-
+```
 ## Step 3: Run and Test
 
    1. Compile your workspace using colcon build.
