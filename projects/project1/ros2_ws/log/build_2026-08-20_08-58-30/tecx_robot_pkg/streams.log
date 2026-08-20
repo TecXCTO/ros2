@@ -1,0 +1,41 @@
+[8.651s] Invoking command in '/root/tecxcto/ros2/projects/project1/ros2_ws/src/tecx_robot_pkg': PYTHONPATH=/root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tecx_robot_pkg build --build-base /root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg/build install --record /root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg/install.log --install-scripts $base/lib/tecx_robot_pkg --single-version-externally-managed install_data
+[13.891s] running egg_info
+[13.899s] creating ../../build/tecx_robot_pkg/tecx_robot_pkg.egg-info
+[13.901s] writing ../../build/tecx_robot_pkg/tecx_robot_pkg.egg-info/PKG-INFO
+[13.908s] writing dependency_links to ../../build/tecx_robot_pkg/tecx_robot_pkg.egg-info/dependency_links.txt
+[13.912s] writing entry points to ../../build/tecx_robot_pkg/tecx_robot_pkg.egg-info/entry_points.txt
+[13.916s] writing requirements to ../../build/tecx_robot_pkg/tecx_robot_pkg.egg-info/requires.txt
+[13.919s] writing top-level names to ../../build/tecx_robot_pkg/tecx_robot_pkg.egg-info/top_level.txt
+[13.930s] writing manifest file '../../build/tecx_robot_pkg/tecx_robot_pkg.egg-info/SOURCES.txt'
+[13.992s] reading manifest file '../../build/tecx_robot_pkg/tecx_robot_pkg.egg-info/SOURCES.txt'
+[14.024s] writing manifest file '../../build/tecx_robot_pkg/tecx_robot_pkg.egg-info/SOURCES.txt'
+[14.027s] running build
+[14.027s] running build_py
+[14.034s] creating /root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg/build
+[14.037s] creating /root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg/build/lib
+[14.039s] creating /root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg/build/lib/tecx_robot_pkg
+[14.042s] copying tecx_robot_pkg/diagnostic_sub.py -> /root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg/build/lib/tecx_robot_pkg
+[14.050s] copying tecx_robot_pkg/telemetry_pub.py -> /root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg/build/lib/tecx_robot_pkg
+[14.059s] copying tecx_robot_pkg/__init__.py -> /root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg/build/lib/tecx_robot_pkg
+[14.067s] running install
+[14.069s] running install_lib
+[14.084s] creating /root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/lib/python3.10/site-packages/tecx_robot_pkg
+[14.088s] copying /root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg/build/lib/tecx_robot_pkg/diagnostic_sub.py -> /root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/lib/python3.10/site-packages/tecx_robot_pkg
+[14.097s] copying /root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg/build/lib/tecx_robot_pkg/telemetry_pub.py -> /root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/lib/python3.10/site-packages/tecx_robot_pkg
+[14.106s] copying /root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg/build/lib/tecx_robot_pkg/__init__.py -> /root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/lib/python3.10/site-packages/tecx_robot_pkg
+[14.123s] byte-compiling /root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/lib/python3.10/site-packages/tecx_robot_pkg/diagnostic_sub.py to diagnostic_sub.cpython-310.pyc
+[14.137s] byte-compiling /root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/lib/python3.10/site-packages/tecx_robot_pkg/telemetry_pub.py to telemetry_pub.cpython-310.pyc
+[14.154s] byte-compiling /root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/lib/python3.10/site-packages/tecx_robot_pkg/__init__.py to __init__.cpython-310.pyc
+[14.164s] running install_data
+[14.167s] creating /root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/share/ament_index
+[14.168s] creating /root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/share/ament_index/resource_index
+[14.169s] creating /root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/share/ament_index/resource_index/packages
+[14.171s] copying resource/tecx_robot_pkg -> /root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/share/ament_index/resource_index/packages
+[14.179s] copying package.xml -> /root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/share/tecx_robot_pkg
+[14.182s] running install_egg_info
+[14.198s] Copying ../../build/tecx_robot_pkg/tecx_robot_pkg.egg-info to /root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/lib/python3.10/site-packages/tecx_robot_pkg-0.0.0-py3.10.egg-info
+[14.292s] running install_scripts
+[14.567s] Installing listener script to /root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/lib/tecx_robot_pkg
+[14.570s] Installing talker script to /root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/lib/tecx_robot_pkg
+[14.575s] writing list of installed files to '/root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg/install.log'
+[14.683s] Invoked command in '/root/tecxcto/ros2/projects/project1/ros2_ws/src/tecx_robot_pkg' returned '0': PYTHONPATH=/root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tecx_robot_pkg build --build-base /root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg/build install --record /root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg/install.log --install-scripts $base/lib/tecx_robot_pkg --single-version-externally-managed install_data

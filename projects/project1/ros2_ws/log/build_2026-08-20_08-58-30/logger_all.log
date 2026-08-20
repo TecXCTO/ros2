@@ -1,0 +1,129 @@
+[3.498s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'tecx_robot_pkg']
+[3.499s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['tecx_robot_pkg'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fab2399f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fab5ff160>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fab5ff160>>)
+[9.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[9.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[9.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[9.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[9.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[9.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[9.445s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/tecxcto/ros2/projects/project1/ros2_ws'
+[9.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[9.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[9.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[9.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[9.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[9.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[9.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[9.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[9.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[9.674s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[9.674s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[9.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[9.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[9.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[9.681s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[9.681s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[9.683s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[9.686s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[9.687s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[9.689s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[9.696s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[9.697s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[9.699s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[9.708s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[9.709s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[9.711s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[9.714s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[9.714s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[9.716s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[9.717s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[9.720s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[9.720s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[9.727s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[9.727s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[9.729s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[9.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[9.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[9.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/tecx_robot_pkg) by extensions ['ignore', 'ignore_ament_install']
+[9.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/tecx_robot_pkg) by extension 'ignore'
+[9.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/tecx_robot_pkg) by extension 'ignore_ament_install'
+[9.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/tecx_robot_pkg) by extensions ['colcon_pkg']
+[9.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/tecx_robot_pkg) by extension 'colcon_pkg'
+[9.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/tecx_robot_pkg) by extensions ['colcon_meta']
+[9.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/tecx_robot_pkg) by extension 'colcon_meta'
+[9.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/tecx_robot_pkg) by extensions ['ros']
+[9.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/tecx_robot_pkg) by extension 'ros'
+[9.816s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tecx_robot_pkg' with type 'ros.ament_python' and name 'tecx_robot_pkg'
+[9.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[9.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[9.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[9.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[9.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[10.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[10.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[10.561s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 187 installed packages in /opt/ros/humble
+[10.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[11.186s] Level 5:colcon.colcon_core.verb:set package 'tecx_robot_pkg' build argument 'cmake_args' from command line to 'None'
+[11.186s] Level 5:colcon.colcon_core.verb:set package 'tecx_robot_pkg' build argument 'cmake_target' from command line to 'None'
+[11.186s] Level 5:colcon.colcon_core.verb:set package 'tecx_robot_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[11.186s] Level 5:colcon.colcon_core.verb:set package 'tecx_robot_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[11.186s] Level 5:colcon.colcon_core.verb:set package 'tecx_robot_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[11.186s] Level 5:colcon.colcon_core.verb:set package 'tecx_robot_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[11.186s] Level 5:colcon.colcon_core.verb:set package 'tecx_robot_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[11.186s] Level 5:colcon.colcon_core.verb:set package 'tecx_robot_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[11.186s] Level 5:colcon.colcon_core.verb:set package 'tecx_robot_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[11.186s] DEBUG:colcon.colcon_core.verb:Building package 'tecx_robot_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg', 'merge_install': False, 'path': '/root/tecxcto/ros2/projects/project1/ros2_ws/src/tecx_robot_pkg', 'symlink_install': False, 'test_result_base': None}
+[11.187s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[11.203s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[11.206s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/tecxcto/ros2/projects/project1/ros2_ws/src/tecx_robot_pkg' with build type 'ament_python'
+[11.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('tecx_robot_pkg', 'ament_prefix_path')
+[11.283s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[11.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/share/tecx_robot_pkg/hook/ament_prefix_path.ps1'
+[11.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/share/tecx_robot_pkg/hook/ament_prefix_path.dsv'
+[11.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/share/tecx_robot_pkg/hook/ament_prefix_path.sh'
+[11.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.506s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/tecxcto/ros2/projects/project1/ros2_ws/src/tecx_robot_pkg'
+[15.507s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.518s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.792s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: check, bdist_rpm, build_clib, install_lib, egg_info, install, build_scripts, saveopts, easy_install, test, bdist_egg, upload, rotate, bdist, setopt, bdist_wheel, bdist_dumb, symlink_data, alias, build_py, install_headers, install_data, register, install_scripts, upload_docs, install_egg_info, build, sdist, develop, build_ext, clean, dist_info
+[19.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/tecxcto/ros2/projects/project1/ros2_ws/src/tecx_robot_pkg': PYTHONPATH=/root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tecx_robot_pkg build --build-base /root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg/build install --record /root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg/install.log --install-scripts $base/lib/tecx_robot_pkg --single-version-externally-managed install_data
+[25.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/tecxcto/ros2/projects/project1/ros2_ws/src/tecx_robot_pkg' returned '0': PYTHONPATH=/root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tecx_robot_pkg build --build-base /root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg/build install --record /root/tecxcto/ros2/projects/project1/ros2_ws/build/tecx_robot_pkg/install.log --install-scripts $base/lib/tecx_robot_pkg --single-version-externally-managed install_data
+[26.023s] Level 1:colcon.colcon_core.environment:checking '/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg' for CMake module files
+[26.037s] Level 1:colcon.colcon_core.environment:checking '/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg' for CMake config files
+[26.049s] Level 1:colcon.colcon_core.environment:checking '/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/lib'
+[26.050s] Level 1:colcon.colcon_core.environment:checking '/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/bin'
+[26.051s] Level 1:colcon.colcon_core.environment:checking '/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/lib/pkgconfig/tecx_robot_pkg.pc'
+[26.051s] Level 1:colcon.colcon_core.environment:checking '/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/lib/python3.10/site-packages'
+[26.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('tecx_robot_pkg', 'pythonpath')
+[26.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/share/tecx_robot_pkg/hook/pythonpath.ps1'
+[26.058s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/share/tecx_robot_pkg/hook/pythonpath.dsv'
+[26.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/share/tecx_robot_pkg/hook/pythonpath.sh'
+[26.086s] Level 1:colcon.colcon_core.environment:checking '/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/bin'
+[26.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tecx_robot_pkg)
+[26.089s] INFO:colcon.colcon_core.shell:Creating package script '/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/share/tecx_robot_pkg/package.ps1'
+[26.104s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/share/tecx_robot_pkg/package.dsv'
+[26.119s] INFO:colcon.colcon_core.shell:Creating package script '/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/share/tecx_robot_pkg/package.sh'
+[26.133s] INFO:colcon.colcon_core.shell:Creating package script '/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/share/tecx_robot_pkg/package.bash'
+[26.150s] INFO:colcon.colcon_core.shell:Creating package script '/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/share/tecx_robot_pkg/package.zsh'
+[26.208s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/tecxcto/ros2/projects/project1/ros2_ws/install/tecx_robot_pkg/share/colcon-core/packages/tecx_robot_pkg)
+[26.216s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[26.220s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[26.221s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[26.221s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[26.386s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[26.387s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.388s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.388s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[26.389s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[26.390s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.394s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/tecxcto/ros2/projects/project1/ros2_ws/install/local_setup.ps1'
+[26.424s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/tecxcto/ros2/projects/project1/ros2_ws/install/_local_setup_util_ps1.py'
+[26.448s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/tecxcto/ros2/projects/project1/ros2_ws/install/setup.ps1'
+[26.472s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/tecxcto/ros2/projects/project1/ros2_ws/install/local_setup.sh'
+[26.485s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/tecxcto/ros2/projects/project1/ros2_ws/install/_local_setup_util_sh.py'
+[26.498s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/tecxcto/ros2/projects/project1/ros2_ws/install/setup.sh'
+[26.521s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/tecxcto/ros2/projects/project1/ros2_ws/install/local_setup.bash'
+[26.543s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/tecxcto/ros2/projects/project1/ros2_ws/install/setup.bash'
+[26.570s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/tecxcto/ros2/projects/project1/ros2_ws/install/local_setup.zsh'
+[26.589s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/tecxcto/ros2/projects/project1/ros2_ws/install/setup.zsh'

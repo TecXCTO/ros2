@@ -1,0 +1,4 @@
+[console_scripts]
+listener = tecx_robot_pkg.diagnostic_sub:main
+talker = tecx_robot_pkg.telemetry_pub:main
+
