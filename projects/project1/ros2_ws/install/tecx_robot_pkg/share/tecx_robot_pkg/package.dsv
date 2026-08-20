@@ -1,6 +1,1 @@
-source;share/tecx_robot_pkg/hook/pythonpath.ps1
-source;share/tecx_robot_pkg/hook/pythonpath.dsv
-source;share/tecx_robot_pkg/hook/pythonpath.sh
-source;share/tecx_robot_pkg/hook/ament_prefix_path.ps1
-source;share/tecx_robot_pkg/hook/ament_prefix_path.dsv
-source;share/tecx_robot_pkg/hook/ament_prefix_path.sh
+/.l2s/.l2s..l2s.package.dsv0001.00010003

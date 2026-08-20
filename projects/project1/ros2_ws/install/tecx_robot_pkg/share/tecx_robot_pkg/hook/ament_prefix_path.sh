@@ -1,3 +1,1 @@
-# generated from colcon_core/shell/template/hook_prepend_value.sh.em
-
-_colcon_prepend_unique_value AMENT_PREFIX_PATH "$COLCON_CURRENT_PREFIX"
+/.l2s/.l2s..l2s.ament_prefix_path.sh0001.00010003

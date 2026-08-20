@@ -1,0 +1,1 @@
+/.l2s/.l2s..l2s.local_setup.bash0002.00010001

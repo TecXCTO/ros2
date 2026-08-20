@@ -1,0 +1,1 @@
+/.l2s/.l2s..l2s.local_setup.zsh0003.00010001

@@ -1,3 +1,1 @@
-# generated from colcon_powershell/shell/template/hook_prepend_value.ps1.em
-
-colcon_prepend_unique_value AMENT_PREFIX_PATH "$env:COLCON_CURRENT_PREFIX"
+/.l2s/.l2s..l2s.ament_prefix_path.ps10001.00010003

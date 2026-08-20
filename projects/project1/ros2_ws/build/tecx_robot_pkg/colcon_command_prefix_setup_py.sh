@@ -1,1 +1,1 @@
-# generated from colcon_core/shell/template/command_prefix.sh.em
+/.l2s/.l2s..l2s.colcon_command_prefix_setup_py.sh0001.00010003
