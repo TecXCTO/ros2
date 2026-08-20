@@ -1,4 +1,5 @@
-Robot Operating System (ROS 2) is not a traditional operating system like Windows or Linux. It is a highly powerful, open-source middleware framework that provides hardware abstraction, low-level device control, message-passing, and package management. It essentially acts as the plumbing or "nervous system" for a robot, allowing different software programs (nodes) to talk to one another smoothly. [1, 2, 3, 4] 
+# Robot Operating System (ROS 2)
+It is not a traditional operating system like Windows or Linux. It is a highly powerful, open-source middleware framework that provides hardware abstraction, low-level device control, message-passing, and package management. It essentially acts as the plumbing or "nervous system" for a robot, allowing different software programs (nodes) to talk to one another smoothly.
 The core reason why ROS 2 was completely rewritten from the ground up to replace ROS 1 was to remove the single point of failure (the ROS Master) and introduce industrial-grade reliability, real-time control, and native security using a decentralized standard called DDS (Data Distribution Service). [1, 4, 5] 
 ------------------------------
 ## Core Applications: What Can You Do With ROS 2?
@@ -61,12 +62,12 @@ cd ~/ros2_ws/src
 ```
 # Create a clean Python package from scratch
 ```
-ros2 pkg create --build-type ament_python my_robot_pkg --dependencies rclpy std_msgs
+ros2 pkg create --build-type ament_python tecx_robot_pkg --dependencies rclpy std_msgs
 ```
 ## Step 2: Write the Basic Python Code (Publisher Node)
 Navigate into your package directory to write the publisher logic.
 ```
-cd ~/ros2_ws/src/my_robot_pkg/my_robot_pkg
+cd ~/ros2_ws/src/tecx_robot_pkg/tecx_robot_pkg
 touch telemetry_pub.py
 chmod +x telemetry_pub.py
 ```
@@ -143,7 +144,7 @@ if __name__ == '__main__':
 ```
 ## Step 4: Configure Package Manifests
 You need to tell the universal compilation framework (colcon) where to find your scripts. [2, 7] 
-Open ~/ros2_ws/src/my_robot_pkg/setup.py and modify the entry_points field to map terminal commands directly to your scripts:
+Open ~/ros2_ws/src/tecx_robot_pkg/setup.py and modify the entry_points field to map terminal commands directly to your scripts:
 ```
     entry_points={
         'console_scripts': [
@@ -157,7 +158,7 @@ Go to your workspace root, build your system, and link the configurations: [2, 7
 
 ```
 cd ~/ros2_ws
-colcon build --packages-select my_robot_pkg
+colcon build --packages-select tecx_robot_pkg
 source install/setup.bash
 
 To run your code, open Terminal Terminal 1:
@@ -168,7 +169,7 @@ ros2 run my_robot_pkg talker
 Open a completely new Terminal Terminal 2:
 
 source ~/ros2_ws/install/setup.bash
-ros2 run my_robot_pkg listener
+ros2 run tecx_robot_pkg listener
 ```
 
 ------------------------------
@@ -181,3 +182,44 @@ An expert debugging flow relies completely on command-line infrastructure rather
 * Echo live topic streaming data: ros2 topic echo /robot_status
 * Inspect structural message definitions: ros2 interface show std_msgs/msg/String
 * Analyze topic frequencies & bandwidth: ros2 topic hz /robot_status
+```
+root@localhost:~/tecxcto/ros2/projects# cd project1
+root@localhost:~/tecxcto/ros2/projects/project1# ls
+README.md  ros2_ws
+root@localhost:~/tecxcto/ros2/projects/project1# ros2 pkg create --build-type ament_python tecx_robot_pkg --dependencies rclpy std_msgs
+going to create a new package
+package name: tecx_robot_pkg
+destination directory: /root/tecxcto/ros2/projects/project1
+package format: 3
+version: 0.0.0
+description: TODO: Package description
+maintainer: ['root <root@todo.todo>']
+licenses: ['TODO: License declaration']
+build type: ament_python
+dependencies: ['rclpy', 'std_msgs']
+creating folder ./tecx_robot_pkg
+creating ./tecx_robot_pkg/package.xml
+creating source folder
+creating folder ./tecx_robot_pkg/tecx_robot_pkg
+creating ./tecx_robot_pkg/setup.py
+creating ./tecx_robot_pkg/setup.cfg
+creating folder ./tecx_robot_pkg/resource
+creating ./tecx_robot_pkg/resource/tecx_robot_pkg
+creating ./tecx_robot_pkg/tecx_robot_pkg/__init__.py
+creating folder ./tecx_robot_pkg/test
+creating ./tecx_robot_pkg/test/test_copyright.py
+creating ./tecx_robot_pkg/test/test_flake8.py
+creating ./tecx_robot_pkg/test/test_pep257.py
+
+[WARNING]: Unknown license 'TODO: License declaration'.  This has been set in the package.xml, but no LICENSE file has been created.
+It is recommended to use one of the ament license identitifers:
+Apache-2.0
+BSL-1.0
+BSD-2.0
+BSD-2-Clause
+BSD-3-Clause
+GPL-3.0-only
+LGPL-3.0-only
+MIT
+MIT-0
+```
