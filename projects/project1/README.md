@@ -1,6 +1,8 @@
 # Robot Operating System (ROS 2)
+
 It is not a traditional operating system like Windows or Linux. It is a highly powerful, open-source middleware framework that provides hardware abstraction, low-level device control, message-passing, and package management. It essentially acts as the plumbing or "nervous system" for a robot, allowing different software programs (nodes) to talk to one another smoothly.
-The core reason why ROS 2 was completely rewritten from the ground up to replace ROS 1 was to remove the single point of failure (the ROS Master) and introduce industrial-grade reliability, real-time control, and native security using a decentralized standard called DDS (Data Distribution Service). [1, 4, 5] 
+The core reason why ROS 2 was completely rewritten from the ground up to replace ROS 1 was to remove the single point of failure (the ROS Master) and introduce industrial-grade reliability, real-time control, and native security using a decentralized standard called DDS (Data Distribution Service).
+
 ------------------------------
 ## Core Applications: What Can You Do With ROS 2?
 ROS 2 is used to write code that lets robots perceive their world, make decisions, and move securely.
