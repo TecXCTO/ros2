@@ -1,4 +1,5 @@
-# Running a full Linux system 
+# Running a full Linux system
+
 inside Termux using an environment like Ubuntu via proot-distro opens up incredible possibilities. Because Termux runs on your mobile processor (usually ARM64 architecture) and lacks native hardware-accelerated graphics (like direct GPU access for Gazebo or RViz), you must focus entirely on headless computation, logic engines, CLI applications, and networked robotics.
 The hardware in modern mobile devices is exceptionally fast, making Termux an incredible environment for building high-performance, algorithmic backend nodes.
 ------------------------------
