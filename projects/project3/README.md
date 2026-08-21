@@ -45,7 +45,30 @@ Ensure your ROS 2 system has the core geometry message definitions installed ins
 sudo apt update
 sudo apt install ros-humble-geometry-msgs python3-pip -y
 ```
+### Step-by-Step Programming: 
+From Scratch to Expert Code
+
+let's build a functional, native ROS 2 Python application entirely using terminal commands and raw python code.
+
+#### Step 1a: Set Up Your Workspace
+Open your Linux terminal (targeting a distribution like ROS 2 Humble or Jazzy Jalisco):
+```
+# Create the workspace directory structure
+mkdir -p ~/ros2_ws/src
+cd ~/ros2_ws/src
+
+# Create a clean Python package from scratch
+ros2 pkg create --build-type ament_python tecx_acoustic_drive_telemetric_command_core --dependencies rclpy std_msgs
+```
+
+#### Step 1.b: Write the Basic Python Code (Publisher Node)Navigate into your package directory to write the publisher logic.
+```
+cd ~/ros2_ws/src/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core
+touch headphone_teleop_node.py
+chmod +x headphone_teleop_node.py
+```
 ## Step 2: Write the Central Brain Logic Node
+
 Create a file named headphone_teleop_node.py inside your ROS 2 package workspace. This node takes button/text inputs and continuously broadcasts movement velocities.
 ```
 #!/usr/bin/env python3
