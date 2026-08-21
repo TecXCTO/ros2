@@ -151,8 +151,8 @@ if __name__ == '__main__':
 ```
 ## Step 3: Compile and Test the Core Data Feed
 ```
-# 1.
-Run colcon build --packages-select tecx_acoustic_drive_telemetric_command_core
+# 1.Run
+colcon build --packages-select tecx_acoustic_drive_telemetric_command_core
 #  at the root of your workspace (~/ros2_ws).
 #   2. Run the node:
 ros2 run tecx_acoustic_drive_telemetric_command_core headline_teleop
