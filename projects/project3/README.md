@@ -54,8 +54,8 @@ let's build a functional, native ROS 2 Python application entirely using termina
 Open your Linux terminal (targeting a distribution like ROS 2 Humble or Jazzy Jalisco):
 ```
 # Create the workspace directory structure
-mkdir -p ~/ros2_ws/src
-cd ~/ros2_ws/src
+mkdir -p ~/tecxcto/ros2/projects/project3/ros2_ws/src
+cd ~/tecxcto/ros2/projects/project3/ros2_ws/src
 
 # Create a clean Python package from scratch
 ros2 pkg create --build-type ament_python tecx_acoustic_drive_telemetric_command_core --dependencies rclpy std_msgs
