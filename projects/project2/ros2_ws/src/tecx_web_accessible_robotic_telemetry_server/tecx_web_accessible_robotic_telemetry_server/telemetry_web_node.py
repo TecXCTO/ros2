@@ -14,6 +14,11 @@ def get_status():
     # Exposes your internal node variables via a clean JSON web api
     return jsonify({"status": latest_system_data})
 
+# ADD THESE 3 LINES RIGHT HERE:
+@app.route('/')
+def home():
+    return jsonify({"status": latest_system_data})
+    
 def run_flask():
     # Host on port 5000 accessible across your local network
     app.run(host='0.0.0.0', port=5000, debug=False, use_reloader=False)
