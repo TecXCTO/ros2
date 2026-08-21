@@ -150,14 +150,15 @@ if __name__ == '__main__':
     main()
 ```
 ## Step 3: Compile and Test the Core Data Feed
-
-   1. Run colcon build --packages-select your_package_name at the root of your workspace (~/ros2_ws).
+```
+# 1.
+Run colcon build --packages-select your_package_name at the root of your workspace (~/ros2_ws).
    2. Run the node: ros2 run your_package_name headline_teleop
    3. Press w, a, s, or d inside your Termux terminal window.
    4. Open a completely separate terminal tab in Termux-Ubuntu and inspect the real structural data flowing through your system by typing:
    
    ros2 topic echo /cmd_vel
-   
+ ```  
    You will see the exact linear and angular vector matrices changing in real-time instantly based on your commands.
 
 ------------------------------
