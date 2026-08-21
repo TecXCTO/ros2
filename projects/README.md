@@ -111,9 +111,9 @@ if __name__ == '__main__':
    2. Start the telemetry_pub.py talker node created earlier in one terminal layer.
    3. Run this new telemetry_web_node.py script in another terminal layer.
    4. Open any web browser on your smartphone or PC connected to the same Wi-Fi network and type:
-   
+   ```
    http://localhost:5000/api/robot/status
-   
+   ```
    5. You will see a clean, raw JSON readout refreshing with live, updated internal telemetry parameters directly from your mobile device!
 
 ------------------------------
