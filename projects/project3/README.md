@@ -41,14 +41,21 @@ An ESP32 is a small $5 microchip containing built-in Wi-Fi and Bluetooth. It han
 Let's build the core Headless Command Node that translates keyboard inputs (simulating headphone button triggers) into real robot movement data streams, ready to be sent over your local network.
 ## Step 1: Install Data Dependencies
 Ensure your ROS 2 system has the core geometry message definitions installed inside your Ubuntu environment:
-
+```
 sudo apt update
 sudo apt install ros-humble-geometry-msgs python3-pip -y
-
+```
 ## Step 2: Write the Central Brain Logic Node
 Create a file named headphone_teleop_node.py inside your ROS 2 package workspace. This node takes button/text inputs and continuously broadcasts movement velocities.
-
-#!/usr/bin/env python3import rclpyfrom rclpy.node import Nodefrom geometry_msgs.msg import Twistimport sysimport selectimport ttyimport termios
+```
+#!/usr/bin/env python3
+import rclpy
+from rclpy.node import Node
+from geometry_msgs.msg import Twist
+import sys
+import select
+import tty
+import termios
 class HeadphoneTeleop(Node):
     def __init__(self):
         super().__init__('headphone_teleop_node')
@@ -118,7 +125,7 @@ def main(args=None):
     rclpy.shutdown()
 if __name__ == '__main__':
     main()
-
+```
 ## Step 3: Compile and Test the Core Data Feed
 
    1. Run colcon build --packages-select your_package_name at the root of your workspace (~/ros2_ws).
