@@ -63,7 +63,7 @@ ros2 pkg create --build-type ament_python tecx_acoustic_drive_telemetric_command
 
 #### Step 1.b: Write the Basic Python Code (Publisher Node)Navigate into your package directory to write the publisher logic.
 ```
-cd ~/ros2_ws/src/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core
+cd ~/tecxcto/ros2/projects/project3/ros2_ws/src/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core
 touch headphone_teleop_node.py
 chmod +x headphone_teleop_node.py
 ```
