@@ -1,0 +1,5 @@
+[console_scripts]
+listener = tecx_web_accessible_robotic_telemetry_server.diagnostic_sub:main
+talker = tecx_web_accessible_robotic_telemetry_server.telemetry_pub:main
+web_telemetry = tecx_web_accessible_robotic_telemetry_server.telemetry_web_node:main
+

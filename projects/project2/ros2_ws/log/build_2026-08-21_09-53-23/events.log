@@ -1,0 +1,222 @@
+[0.000000] (-) TimerEvent: {}
+[0.000913] (tecx_web_accessible_robotic_telemetry_server) JobQueued: {'identifier': 'tecx_web_accessible_robotic_telemetry_server', 'dependencies': OrderedDict()}
+[0.004434] (tecx_web_accessible_robotic_telemetry_server) JobStarted: {'identifier': 'tecx_web_accessible_robotic_telemetry_server'}
+[0.097867] (-) TimerEvent: {}
+[0.200151] (-) TimerEvent: {}
+[0.305630] (-) TimerEvent: {}
+[0.406743] (-) TimerEvent: {}
+[0.508211] (-) TimerEvent: {}
+[0.609829] (-) TimerEvent: {}
+[0.711625] (-) TimerEvent: {}
+[0.812989] (-) TimerEvent: {}
+[0.914751] (-) TimerEvent: {}
+[1.016405] (-) TimerEvent: {}
+[1.118000] (-) TimerEvent: {}
+[1.219941] (-) TimerEvent: {}
+[1.322801] (-) TimerEvent: {}
+[1.428156] (-) TimerEvent: {}
+[1.531241] (-) TimerEvent: {}
+[1.632961] (-) TimerEvent: {}
+[1.734692] (-) TimerEvent: {}
+[1.836418] (-) TimerEvent: {}
+[1.938140] (-) TimerEvent: {}
+[2.039551] (-) TimerEvent: {}
+[2.142951] (-) TimerEvent: {}
+[2.244386] (-) TimerEvent: {}
+[2.347141] (-) TimerEvent: {}
+[2.451053] (-) TimerEvent: {}
+[2.552522] (-) TimerEvent: {}
+[2.653938] (-) TimerEvent: {}
+[2.755372] (-) TimerEvent: {}
+[2.857070] (-) TimerEvent: {}
+[2.959129] (-) TimerEvent: {}
+[3.060608] (-) TimerEvent: {}
+[3.162941] (-) TimerEvent: {}
+[3.267230] (-) TimerEvent: {}
+[3.373157] (-) TimerEvent: {}
+[3.475142] (-) TimerEvent: {}
+[3.576722] (-) TimerEvent: {}
+[3.678529] (-) TimerEvent: {}
+[3.779832] (-) TimerEvent: {}
+[3.881669] (-) TimerEvent: {}
+[3.986813] (-) TimerEvent: {}
+[4.089831] (-) TimerEvent: {}
+[4.192849] (-) TimerEvent: {}
+[4.295253] (-) TimerEvent: {}
+[4.400830] (-) TimerEvent: {}
+[4.504745] (-) TimerEvent: {}
+[4.606429] (-) TimerEvent: {}
+[4.707996] (-) TimerEvent: {}
+[4.809482] (-) TimerEvent: {}
+[4.910907] (-) TimerEvent: {}
+[5.014258] (-) TimerEvent: {}
+[5.123647] (-) TimerEvent: {}
+[5.227678] (-) TimerEvent: {}
+[5.341993] (-) TimerEvent: {}
+[5.443490] (-) TimerEvent: {}
+[5.545458] (-) TimerEvent: {}
+[5.646862] (-) TimerEvent: {}
+[5.748936] (-) TimerEvent: {}
+[5.850774] (-) TimerEvent: {}
+[5.953279] (-) TimerEvent: {}
+[6.055414] (-) TimerEvent: {}
+[6.159466] (-) TimerEvent: {}
+[6.262763] (-) TimerEvent: {}
+[6.365039] (-) TimerEvent: {}
+[6.468613] (-) TimerEvent: {}
+[6.571216] (-) TimerEvent: {}
+[6.676216] (-) TimerEvent: {}
+[6.779405] (-) TimerEvent: {}
+[6.881897] (-) TimerEvent: {}
+[6.983968] (-) TimerEvent: {}
+[7.087255] (-) TimerEvent: {}
+[7.190349] (-) TimerEvent: {}
+[7.292613] (-) TimerEvent: {}
+[7.394642] (-) TimerEvent: {}
+[7.497034] (-) TimerEvent: {}
+[7.598489] (-) TimerEvent: {}
+[7.699772] (-) TimerEvent: {}
+[7.801741] (-) TimerEvent: {}
+[7.904914] (-) TimerEvent: {}
+[8.009411] (-) TimerEvent: {}
+[8.112087] (-) TimerEvent: {}
+[8.214514] (-) TimerEvent: {}
+[8.316861] (-) TimerEvent: {}
+[8.418931] (-) TimerEvent: {}
+[8.522574] (-) TimerEvent: {}
+[8.625922] (-) TimerEvent: {}
+[8.729365] (-) TimerEvent: {}
+[8.832821] (-) TimerEvent: {}
+[8.936200] (-) TimerEvent: {}
+[9.037721] (-) TimerEvent: {}
+[9.139491] (-) TimerEvent: {}
+[9.241448] (-) TimerEvent: {}
+[9.343316] (-) TimerEvent: {}
+[9.447239] (-) TimerEvent: {}
+[9.549013] (-) TimerEvent: {}
+[9.651339] (-) TimerEvent: {}
+[9.753760] (-) TimerEvent: {}
+[9.855704] (-) TimerEvent: {}
+[9.957379] (-) TimerEvent: {}
+[10.059353] (-) TimerEvent: {}
+[10.160836] (-) TimerEvent: {}
+[10.262518] (-) TimerEvent: {}
+[10.364224] (-) TimerEvent: {}
+[10.467462] (-) TimerEvent: {}
+[10.571917] (-) TimerEvent: {}
+[10.674104] (-) TimerEvent: {}
+[10.776087] (-) TimerEvent: {}
+[10.877468] (-) TimerEvent: {}
+[10.978898] (-) TimerEvent: {}
+[11.080306] (-) TimerEvent: {}
+[11.182377] (-) TimerEvent: {}
+[11.286095] (-) TimerEvent: {}
+[11.387418] (-) TimerEvent: {}
+[11.488875] (-) TimerEvent: {}
+[11.590656] (-) TimerEvent: {}
+[11.692253] (-) TimerEvent: {}
+[11.793822] (-) TimerEvent: {}
+[11.894637] (-) TimerEvent: {}
+[11.995995] (-) TimerEvent: {}
+[12.097305] (-) TimerEvent: {}
+[12.198450] (-) TimerEvent: {}
+[12.267154] (tecx_web_accessible_robotic_telemetry_server) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tecx_web_accessible_robotic_telemetry_server', 'build', '--build-base', '/root/tecxcto/ros2/projects/project2/ros2_ws/build/tecx_web_accessible_robotic_telemetry_server/build', 'install', '--record', '/root/tecxcto/ros2/projects/project2/ros2_ws/build/tecx_web_accessible_robotic_telemetry_server/install.log', '--install-scripts', '$base/lib/tecx_web_accessible_robotic_telemetry_server', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/tecxcto/ros2/projects/project2/ros2_ws/src/tecx_web_accessible_robotic_telemetry_server', 'env': {'DEX2OATBOOTCLASSPATH': '/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/framework-location.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-ondeviceintelligence-platform.jar:/system/framework/framework-nfc.jar:/system/framework/tcmiface.jar:/system/framework/telephony-ext.jar:/system/framework/qcom.fmradio.jar:/system/framework/QPerformance.jar:/system/framework/UxPerformance.jar:/system/framework/WfdCommon.jar:/system/framework/vivo-framework.jar:/system/framework/vivo-media.jar:/system/framework/framework-adapter.jar:/system/framework/soc-framework.jar:/system/framework/vivo-vgcclient.jar:/system/framework/vivo-coworkclient.jar:/apex/com.android.i18n/javalib/core-icu4j.jar', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'EXTERNAL_STORAGE': '/sdcard', 'XDG_CACHE_HOME': '/root/.cache', 'PROOT_L2S_DIR': '/data/data/com.termux/files/usr/var/lib/proot-distro/containers/ubuntu/rootfs/.l2s', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root/tecxcto/ros2/projects/project2/ros2_ws/src/tecx_web_accessible_robotic_telemetry_server', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'BOOTCLASSPATH': '/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/framework-location.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-ondeviceintelligence-platform.jar:/system/framework/framework-nfc.jar:/system/framework/tcmiface.jar:/system/framework/telephony-ext.jar:/system/framework/qcom.fmradio.jar:/system/framework/QPerformance.jar:/system/framework/UxPerformance.jar:/system/framework/WfdCommon.jar:/system/framework/vivo-framework.jar:/system/framework/vivo-media.jar:/system/framework/framework-adapter.jar:/system/framework/soc-framework.jar:/system/framework/vivo-vgcclient.jar:/system/framework/vivo-coworkclient.jar:/apex/com.android.i18n/javalib/core-icu4j.jar:/apex/com.android.adservices/javalib/framework-adservices.jar:/apex/com.android.adservices/javalib/framework-sdksandbox.jar:/apex/com.android.appsearch/javalib/framework-appsearch.jar:/apex/com.android.bt/javalib/framework-bluetooth.jar:/apex/com.android.configinfrastructure/javalib/framework-configinfrastructure.jar:/apex/com.android.conscrypt/javalib/conscrypt.jar:/apex/com.android.crashrecovery/javalib/framework-crashrecovery.jar:/apex/com.android.devicelock/javalib/framework-devicelock.jar:/apex/com.android.healthfitness/javalib/framework-healthfitness.jar:/apex/com.android.ipsec/javalib/android.net.ipsec.ike.jar:/apex/com.android.media/javalib/updatable-media.jar:/apex/com.android.mediaprovider/javalib/framework-mediaprovider.jar:/apex/com.android.mediaprovider/javalib/framework-pdf.jar:/apex/com.android.mediaprovider/javalib/framework-pdf-v.jar:/apex/com.android.mediaprovider/javalib/framework-photopicker.jar:/apex/com.android.ondevicepersonalization/javalib/framework-ondevicepersonalization.jar:/apex/com.android.os.statsd/javalib/framework-statsd.jar:/apex/com.android.permission/javalib/framework-permission.jar:/apex/com.android.permission/javalib/framework-permission-s.jar:/apex/com.android.profiling/javalib/framework-profiling.jar:/apex/com.android.scheduling/javalib/framework-scheduling.jar:/apex/com.android.sdkext/javalib/framework-sdkextensions.jar:/apex/com.android.tethering/javalib/framework-connectivity.jar:/apex/com.android.tethering/javalib/framework-connectivity-b.jar:/apex/com.android.tethering/javalib/framework-connectivity-t.jar:/apex/com.android.tethering/javalib/framework-tethering.jar:/apex/com.android.uwb/javalib/framework-ranging.jar:/apex/com.android.uwb/javalib/framework-uwb.jar:/apex/com.android.virt/javalib/framework-virtualization.jar:/apex/com.android.wifi/javalib/framework-wifi.jar', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/root/tecxcto/ros2/projects/project2/ros2_ws/install', 'ROS_DISTRO': 'humble', 'PULSE_SERVER': '127.0.0.1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ANDROID_DATA': '/data', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/data/data/com.termux/files/usr/bin:/snap/bin', 'ANDROID_I18N_ROOT': '/apex/com.android.i18n', 'ANDROID_ROOT': '/system', 'PYTHONUSERBASE': '/root/.local', 'XDG_DATA_HOME': '/root/.config', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ANDROID_TZDATA_ROOT': '/apex/com.android.tzdata', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/tecxcto/ros2/projects/project2/ros2_ws/build/tecx_web_accessible_robotic_telemetry_server', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/tecxcto/ros2/projects/project2/ros2_ws/build/tecx_web_accessible_robotic_telemetry_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/tecxcto/ros2/projects/project2/ros2_ws/install/tecx_web_accessible_robotic_telemetry_server/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'MOZ_FAKE_NO_SANDBOX': '1', 'ANDROID_ART_ROOT': '/apex/com.android.art', 'COLCON': '1'}, 'shell': False}
+[12.301019] (-) TimerEvent: {}
+[12.406457] (-) TimerEvent: {}
+[12.508260] (-) TimerEvent: {}
+[12.609278] (-) TimerEvent: {}
+[12.710232] (-) TimerEvent: {}
+[12.811394] (-) TimerEvent: {}
+[12.912711] (-) TimerEvent: {}
+[13.013601] (-) TimerEvent: {}
+[13.114280] (-) TimerEvent: {}
+[13.214844] (-) TimerEvent: {}
+[13.316069] (-) TimerEvent: {}
+[13.417133] (-) TimerEvent: {}
+[13.518798] (-) TimerEvent: {}
+[13.620852] (-) TimerEvent: {}
+[13.722548] (-) TimerEvent: {}
+[13.824214] (-) TimerEvent: {}
+[13.927425] (-) TimerEvent: {}
+[14.029826] (-) TimerEvent: {}
+[14.132460] (-) TimerEvent: {}
+[14.234493] (-) TimerEvent: {}
+[14.337110] (-) TimerEvent: {}
+[14.440079] (-) TimerEvent: {}
+[14.542856] (-) TimerEvent: {}
+[14.645037] (-) TimerEvent: {}
+[14.746621] (-) TimerEvent: {}
+[14.847074] (-) TimerEvent: {}
+[14.947750] (-) TimerEvent: {}
+[15.048433] (-) TimerEvent: {}
+[15.149780] (-) TimerEvent: {}
+[15.251464] (-) TimerEvent: {}
+[15.352271] (-) TimerEvent: {}
+[15.454577] (-) TimerEvent: {}
+[15.556648] (-) TimerEvent: {}
+[15.658807] (-) TimerEvent: {}
+[15.761116] (-) TimerEvent: {}
+[15.862683] (-) TimerEvent: {}
+[15.965398] (-) TimerEvent: {}
+[16.068340] (-) TimerEvent: {}
+[16.171465] (-) TimerEvent: {}
+[16.276147] (-) TimerEvent: {}
+[16.378720] (-) TimerEvent: {}
+[16.481103] (-) TimerEvent: {}
+[16.583302] (-) TimerEvent: {}
+[16.594300] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'running egg_info\n'}
+[16.605784] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'creating ../../build/tecx_web_accessible_robotic_telemetry_server/tecx_web_accessible_robotic_telemetry_server.egg-info\n'}
+[16.608941] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'writing ../../build/tecx_web_accessible_robotic_telemetry_server/tecx_web_accessible_robotic_telemetry_server.egg-info/PKG-INFO\n'}
+[16.614444] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'writing dependency_links to ../../build/tecx_web_accessible_robotic_telemetry_server/tecx_web_accessible_robotic_telemetry_server.egg-info/dependency_links.txt\n'}
+[16.617228] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'writing entry points to ../../build/tecx_web_accessible_robotic_telemetry_server/tecx_web_accessible_robotic_telemetry_server.egg-info/entry_points.txt\n'}
+[16.620690] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'writing requirements to ../../build/tecx_web_accessible_robotic_telemetry_server/tecx_web_accessible_robotic_telemetry_server.egg-info/requires.txt\n'}
+[16.622663] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'writing top-level names to ../../build/tecx_web_accessible_robotic_telemetry_server/tecx_web_accessible_robotic_telemetry_server.egg-info/top_level.txt\n'}
+[16.626466] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b"writing manifest file '../../build/tecx_web_accessible_robotic_telemetry_server/tecx_web_accessible_robotic_telemetry_server.egg-info/SOURCES.txt'\n"}
+[16.673367] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b"reading manifest file '../../build/tecx_web_accessible_robotic_telemetry_server/tecx_web_accessible_robotic_telemetry_server.egg-info/SOURCES.txt'\n"}
+[16.683449] (-) TimerEvent: {}
+[16.710493] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b"writing manifest file '../../build/tecx_web_accessible_robotic_telemetry_server/tecx_web_accessible_robotic_telemetry_server.egg-info/SOURCES.txt'\n"}
+[16.711480] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'running build\n'}
+[16.711844] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'running build_py\n'}
+[16.716577] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'creating /root/tecxcto/ros2/projects/project2/ros2_ws/build/tecx_web_accessible_robotic_telemetry_server/build\n'}
+[16.718437] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'creating /root/tecxcto/ros2/projects/project2/ros2_ws/build/tecx_web_accessible_robotic_telemetry_server/build/lib\n'}
+[16.718882] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'creating /root/tecxcto/ros2/projects/project2/ros2_ws/build/tecx_web_accessible_robotic_telemetry_server/build/lib/tecx_web_accessible_robotic_telemetry_server\n'}
+[16.722963] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'copying tecx_web_accessible_robotic_telemetry_server/telemetry_pub.py -> /root/tecxcto/ros2/projects/project2/ros2_ws/build/tecx_web_accessible_robotic_telemetry_server/build/lib/tecx_web_accessible_robotic_telemetry_server\n'}
+[16.728416] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'copying tecx_web_accessible_robotic_telemetry_server/diagnostic_sub.py -> /root/tecxcto/ros2/projects/project2/ros2_ws/build/tecx_web_accessible_robotic_telemetry_server/build/lib/tecx_web_accessible_robotic_telemetry_server\n'}
+[16.732146] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'copying tecx_web_accessible_robotic_telemetry_server/telemetry_web_node.py -> /root/tecxcto/ros2/projects/project2/ros2_ws/build/tecx_web_accessible_robotic_telemetry_server/build/lib/tecx_web_accessible_robotic_telemetry_server\n'}
+[16.736409] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'copying tecx_web_accessible_robotic_telemetry_server/__init__.py -> /root/tecxcto/ros2/projects/project2/ros2_ws/build/tecx_web_accessible_robotic_telemetry_server/build/lib/tecx_web_accessible_robotic_telemetry_server\n'}
+[16.741336] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'running install\n'}
+[16.743015] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'running install_lib\n'}
+[16.755046] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'creating /root/tecxcto/ros2/projects/project2/ros2_ws/install/tecx_web_accessible_robotic_telemetry_server/lib/python3.10/site-packages/tecx_web_accessible_robotic_telemetry_server\n'}
+[16.759336] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'copying /root/tecxcto/ros2/projects/project2/ros2_ws/build/tecx_web_accessible_robotic_telemetry_server/build/lib/tecx_web_accessible_robotic_telemetry_server/telemetry_pub.py -> /root/tecxcto/ros2/projects/project2/ros2_ws/install/tecx_web_accessible_robotic_telemetry_server/lib/python3.10/site-packages/tecx_web_accessible_robotic_telemetry_server\n'}
+[16.769595] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'copying /root/tecxcto/ros2/projects/project2/ros2_ws/build/tecx_web_accessible_robotic_telemetry_server/build/lib/tecx_web_accessible_robotic_telemetry_server/diagnostic_sub.py -> /root/tecxcto/ros2/projects/project2/ros2_ws/install/tecx_web_accessible_robotic_telemetry_server/lib/python3.10/site-packages/tecx_web_accessible_robotic_telemetry_server\n'}
+[16.783092] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'copying /root/tecxcto/ros2/projects/project2/ros2_ws/build/tecx_web_accessible_robotic_telemetry_server/build/lib/tecx_web_accessible_robotic_telemetry_server/telemetry_web_node.py -> /root/tecxcto/ros2/projects/project2/ros2_ws/install/tecx_web_accessible_robotic_telemetry_server/lib/python3.10/site-packages/tecx_web_accessible_robotic_telemetry_server\n'}
+[16.783754] (-) TimerEvent: {}
+[16.794505] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'copying /root/tecxcto/ros2/projects/project2/ros2_ws/build/tecx_web_accessible_robotic_telemetry_server/build/lib/tecx_web_accessible_robotic_telemetry_server/__init__.py -> /root/tecxcto/ros2/projects/project2/ros2_ws/install/tecx_web_accessible_robotic_telemetry_server/lib/python3.10/site-packages/tecx_web_accessible_robotic_telemetry_server\n'}
+[16.810849] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'byte-compiling /root/tecxcto/ros2/projects/project2/ros2_ws/install/tecx_web_accessible_robotic_telemetry_server/lib/python3.10/site-packages/tecx_web_accessible_robotic_telemetry_server/telemetry_pub.py to telemetry_pub.cpython-310.pyc\n'}
+[16.819919] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'byte-compiling /root/tecxcto/ros2/projects/project2/ros2_ws/install/tecx_web_accessible_robotic_telemetry_server/lib/python3.10/site-packages/tecx_web_accessible_robotic_telemetry_server/diagnostic_sub.py to diagnostic_sub.cpython-310.pyc\n'}
+[16.829409] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'byte-compiling /root/tecxcto/ros2/projects/project2/ros2_ws/install/tecx_web_accessible_robotic_telemetry_server/lib/python3.10/site-packages/tecx_web_accessible_robotic_telemetry_server/telemetry_web_node.py to telemetry_web_node.cpython-310.pyc\n'}
+[16.842430] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'byte-compiling /root/tecxcto/ros2/projects/project2/ros2_ws/install/tecx_web_accessible_robotic_telemetry_server/lib/python3.10/site-packages/tecx_web_accessible_robotic_telemetry_server/__init__.py to __init__.cpython-310.pyc\n'}
+[16.852325] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'running install_data\n'}
+[16.856964] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'creating /root/tecxcto/ros2/projects/project2/ros2_ws/install/tecx_web_accessible_robotic_telemetry_server/share/ament_index\n'}
+[16.859089] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'creating /root/tecxcto/ros2/projects/project2/ros2_ws/install/tecx_web_accessible_robotic_telemetry_server/share/ament_index/resource_index\n'}
+[16.859530] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'creating /root/tecxcto/ros2/projects/project2/ros2_ws/install/tecx_web_accessible_robotic_telemetry_server/share/ament_index/resource_index/packages\n'}
+[16.862361] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'copying resource/tecx_web_accessible_robotic_telemetry_server -> /root/tecxcto/ros2/projects/project2/ros2_ws/install/tecx_web_accessible_robotic_telemetry_server/share/ament_index/resource_index/packages\n'}
+[16.870849] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'copying package.xml -> /root/tecxcto/ros2/projects/project2/ros2_ws/install/tecx_web_accessible_robotic_telemetry_server/share/tecx_web_accessible_robotic_telemetry_server\n'}
+[16.876661] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.883944] (-) TimerEvent: {}
+[16.906485] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'Copying ../../build/tecx_web_accessible_robotic_telemetry_server/tecx_web_accessible_robotic_telemetry_server.egg-info to /root/tecxcto/ros2/projects/project2/ros2_ws/install/tecx_web_accessible_robotic_telemetry_server/lib/python3.10/site-packages/tecx_web_accessible_robotic_telemetry_server-0.0.0-py3.10.egg-info\n'}
+[16.985335] (-) TimerEvent: {}
+[17.005354] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'running install_scripts\n'}
+[17.085508] (-) TimerEvent: {}
+[17.188457] (-) TimerEvent: {}
+[17.231922] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'Installing listener script to /root/tecxcto/ros2/projects/project2/ros2_ws/install/tecx_web_accessible_robotic_telemetry_server/lib/tecx_web_accessible_robotic_telemetry_server\n'}
+[17.235452] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'Installing talker script to /root/tecxcto/ros2/projects/project2/ros2_ws/install/tecx_web_accessible_robotic_telemetry_server/lib/tecx_web_accessible_robotic_telemetry_server\n'}
+[17.239540] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b'Installing web_telemetry script to /root/tecxcto/ros2/projects/project2/ros2_ws/install/tecx_web_accessible_robotic_telemetry_server/lib/tecx_web_accessible_robotic_telemetry_server\n'}
+[17.247888] (tecx_web_accessible_robotic_telemetry_server) StdoutLine: {'line': b"writing list of installed files to '/root/tecxcto/ros2/projects/project2/ros2_ws/build/tecx_web_accessible_robotic_telemetry_server/install.log'\n"}
+[17.288970] (-) TimerEvent: {}
+[17.316961] (tecx_web_accessible_robotic_telemetry_server) CommandEnded: {'returncode': 0}
+[17.389540] (-) TimerEvent: {}
+[17.500550] (-) TimerEvent: {}
+[17.579508] (tecx_web_accessible_robotic_telemetry_server) JobEnded: {'identifier': 'tecx_web_accessible_robotic_telemetry_server', 'rc': 0}
+[17.607658] (-) TimerEvent: {}
+[17.608922] (-) EventReactorShutdown: {}

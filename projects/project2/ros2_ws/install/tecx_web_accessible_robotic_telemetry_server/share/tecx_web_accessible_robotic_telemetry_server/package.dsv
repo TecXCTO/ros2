@@ -1,0 +1,6 @@
+source;share/tecx_web_accessible_robotic_telemetry_server/hook/pythonpath.ps1
+source;share/tecx_web_accessible_robotic_telemetry_server/hook/pythonpath.dsv
+source;share/tecx_web_accessible_robotic_telemetry_server/hook/pythonpath.sh
+source;share/tecx_web_accessible_robotic_telemetry_server/hook/ament_prefix_path.ps1
+source;share/tecx_web_accessible_robotic_telemetry_server/hook/ament_prefix_path.dsv
+source;share/tecx_web_accessible_robotic_telemetry_server/hook/ament_prefix_path.sh
