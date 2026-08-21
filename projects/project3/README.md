@@ -155,6 +155,7 @@ cd ~/tecxcto/ros2/projects/project3/ros2_ws
 # 1.Run at the root of your workspace (/ros2_ws).
 colcon build --packages-select tecx_acoustic_drive_telemetric_command_core
 #   2. Run the node:
+source install/setup.bash
 ros2 run tecx_acoustic_drive_telemetric_command_core headline_teleop
 # 3. Press w, a, s, or d inside your Termux terminal window.
 # 4. Open a completely separate terminal tab in Termux-Ubuntu and inspect the real structural data flowing through your system by typing:
