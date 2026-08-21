@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'tecx_Web-Accessible_Robotic_Telemetry_Server'
+package_name = 'tecx_web_accessible_robotic_telemetry_server'
 
 setup(
     name=package_name,
@@ -24,9 +24,9 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'web_telemetry = tecx_Web-Accessible_Robotic_Telemetry_Server.telemetry_web_node:main',
-            'talker = tecx_Web-Accessible_Robotic_Telemetry_Server.telemetry_pub:main',
-            'listener = tecx_Web-Accessible_Robotic_Telemetry_Server.diagnostic_sub:main',
+            'web_telemetry = tecx_web_accessible_robotic_telemetry_server.telemetry_web_node:main',
+            'talker = tecx_web_accessible_robotic_telemetry_server.telemetry_pub:main',
+            'listener = tecx_web_accessible_robotic_telemetry_server.diagnostic_sub:main',
         ],
     },
 )
