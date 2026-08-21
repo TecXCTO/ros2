@@ -29,7 +29,4 @@ setup(
             'listener = tecx_Web-Accessible_Robotic_Telemetry_Server.diagnostic_sub:main',
         ],
     },
-
-        ],
-    },
 )

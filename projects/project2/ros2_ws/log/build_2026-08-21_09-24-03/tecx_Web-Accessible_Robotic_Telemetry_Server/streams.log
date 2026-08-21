@@ -1,4 +1,4 @@
-[4.562s] Traceback (most recent call last):
+[5.639s] Traceback (most recent call last):
   File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
     rc = await self.task(*args, **kwargs)
   File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 120, in __call__
