@@ -79,7 +79,6 @@ cd ~/tecxcto/ros2/projects/project4/ros2_ws/src/tecx_raw_microcontroller_byte_st
 # ~/ros2_ws/src/my_robot_pkg/my_robot_pkg
 touch tecx_raw_microcontroller_byte_stream_parser.py
 chmod +x tecx_raw_microcontroller_byte_stream_parser.py
-
 ```
 ### Raw Microcontroller Byte-Stream Parser
 Here is the core logic template you will use inside Termux to read raw numeric data strings arriving from any old hacked electronic chip over a basic USB-to-Serial adapter cable plugged into your phone:
@@ -145,7 +144,7 @@ You need to tell the universal compilation framework (colcon) where to find your
 
 ```
 nano ~/tecxcto/ros2/projects/project4/ros2_ws/src/tecx_raw_microcontroller_byte_stream_parser/setup.py
-
+```
 # Then modify the entry_points field to map terminal commands directly to your scripts:
 
 ```
