@@ -58,6 +58,42 @@ When working with bare electronic chips, you don't need graphics. You communicat
 ```
 
 ## Script Example:
+```
+# Step-by-Step Programming:
+# From Scratch to Expert Code
+# Let's build a functional, native ROS 2 Python application entirely using terminal commands and raw python code.
+
+# Step : Set Up Your Workspace
+# Open your Linux terminal (targeting a distribution like ROS 2 Humble or Jazzy Jalisco):
+
+# Create the workspace directory structure
+mkdir -p ~/tecxcto/ros2/projects/project4/ros2_ws/src
+cd ~/tecxcto/ros2/projects/project4/ros2_ws/src
+
+# Create a clean Python package from scratch
+ros2 pkg create --build-type ament_python tecx_raw_microcontroller_byte_stream_parser --dependencies rclpy std_msgs
+
+# Step : Write the Basic Python Code (Publisher Node)Navigate into your package directory to write the publisher logic.
+
+cd ~/tecxcto/ros2/projects/project4/ros2_ws/src/tecx_raw_microcontroller_byte_stream_parser/
+ ~/ros2_ws/src/my_robot_pkg/my_robot_pkg
+touch telemetry_pub.py
+chmod +x tecx_raw_microcontroller_byte_stream_parser.py
+
+tecx_raw_microcontroller_byte_stream_parser
+
+# Step : Build and Run Your CodeGo to your workspace root, build your system, and link the configurations:
+cd ~/ros2_ws
+colcon build --packages-select my_robot_pkg
+source install/setup.bash
+
+# To run your code, open Terminal Terminal 1:
+
+# source ./ros2_ws/install/setup.bash
+ros2 run my_robot_pkg talker
+
+
+```
 ### Raw Microcontroller Byte-Stream Parser
 Here is the core logic template you will use inside Termux to read raw numeric data strings arriving from any old hacked electronic chip over a basic USB-to-Serial adapter cable plugged into your phone:
 
