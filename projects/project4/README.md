@@ -169,6 +169,6 @@ source install/setup.bash
 ```
 cd ~/tecxcto/ros2/projects/project4/ros2_ws
 source ~/tecxcto/ros2/projects/project4/ros2_ws/install/setup.bash
-ros2 run tecx_raw_microcontroller_byte_stream_parser_pkg talker
+ros2 run tecx_raw_microcontroller_byte_stream_parser_pkg raw_microcont_parser
 ```
 ------------------------------
