@@ -150,7 +150,7 @@ nano ~/tecxcto/ros2/projects/project4/ros2_ws/src/tecx_raw_microcontroller_byte_
 ```
     entry_points={
         'console_scripts': [
-            'talker = tecx_raw_microcontroller_byte_stream_parser_pkg.telemetry_pub:main',
+            'raw_microcont_parser = tecx_raw_microcontroller_byte_stream_parser_pkg.tecx_raw_microcontroller_byte_stream_parser:main',
             'listener = tecx_raw_microcontroller_byte_stream_parser_pkg.diagnostic_sub:main',
         ],
     },
