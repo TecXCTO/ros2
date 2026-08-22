@@ -1,0 +1,224 @@
+[0.000000] (-) TimerEvent: {}
+[0.002364] (tecx_raw_microcontroller_byte_stream_parser_pkg) JobQueued: {'identifier': 'tecx_raw_microcontroller_byte_stream_parser_pkg', 'dependencies': OrderedDict()}
+[0.006696] (tecx_raw_microcontroller_byte_stream_parser_pkg) JobStarted: {'identifier': 'tecx_raw_microcontroller_byte_stream_parser_pkg'}
+[0.096859] (-) TimerEvent: {}
+[0.214275] (-) TimerEvent: {}
+[0.316850] (-) TimerEvent: {}
+[0.418168] (-) TimerEvent: {}
+[0.519757] (-) TimerEvent: {}
+[0.621588] (-) TimerEvent: {}
+[0.723168] (-) TimerEvent: {}
+[0.825279] (-) TimerEvent: {}
+[0.926903] (-) TimerEvent: {}
+[1.028603] (-) TimerEvent: {}
+[1.130673] (-) TimerEvent: {}
+[1.232216] (-) TimerEvent: {}
+[1.334299] (-) TimerEvent: {}
+[1.436824] (-) TimerEvent: {}
+[1.539194] (-) TimerEvent: {}
+[1.640584] (-) TimerEvent: {}
+[1.742129] (-) TimerEvent: {}
+[1.843365] (-) TimerEvent: {}
+[1.945220] (-) TimerEvent: {}
+[2.046459] (-) TimerEvent: {}
+[2.148658] (-) TimerEvent: {}
+[2.249766] (-) TimerEvent: {}
+[2.351243] (-) TimerEvent: {}
+[2.454432] (-) TimerEvent: {}
+[2.555813] (-) TimerEvent: {}
+[2.657146] (-) TimerEvent: {}
+[2.757952] (-) TimerEvent: {}
+[2.859715] (-) TimerEvent: {}
+[2.961104] (-) TimerEvent: {}
+[3.062057] (-) TimerEvent: {}
+[3.163497] (-) TimerEvent: {}
+[3.269306] (-) TimerEvent: {}
+[3.370758] (-) TimerEvent: {}
+[3.472594] (-) TimerEvent: {}
+[3.574133] (-) TimerEvent: {}
+[3.675540] (-) TimerEvent: {}
+[3.777000] (-) TimerEvent: {}
+[3.878656] (-) TimerEvent: {}
+[3.979836] (-) TimerEvent: {}
+[4.082296] (-) TimerEvent: {}
+[4.185689] (-) TimerEvent: {}
+[4.287226] (-) TimerEvent: {}
+[4.393260] (-) TimerEvent: {}
+[4.495976] (-) TimerEvent: {}
+[4.598223] (-) TimerEvent: {}
+[4.702988] (-) TimerEvent: {}
+[4.804600] (-) TimerEvent: {}
+[4.906356] (-) TimerEvent: {}
+[5.007772] (-) TimerEvent: {}
+[5.108952] (-) TimerEvent: {}
+[5.210514] (-) TimerEvent: {}
+[5.313614] (-) TimerEvent: {}
+[5.414983] (-) TimerEvent: {}
+[5.516032] (-) TimerEvent: {}
+[5.617858] (-) TimerEvent: {}
+[5.719969] (-) TimerEvent: {}
+[5.821560] (-) TimerEvent: {}
+[5.922601] (-) TimerEvent: {}
+[6.023702] (-) TimerEvent: {}
+[6.124692] (-) TimerEvent: {}
+[6.225761] (-) TimerEvent: {}
+[6.327775] (-) TimerEvent: {}
+[6.430107] (-) TimerEvent: {}
+[6.533404] (-) TimerEvent: {}
+[6.636166] (-) TimerEvent: {}
+[6.737612] (-) TimerEvent: {}
+[6.839404] (-) TimerEvent: {}
+[6.942007] (-) TimerEvent: {}
+[7.043693] (-) TimerEvent: {}
+[7.145192] (-) TimerEvent: {}
+[7.246690] (-) TimerEvent: {}
+[7.348257] (-) TimerEvent: {}
+[7.449316] (-) TimerEvent: {}
+[7.550628] (-) TimerEvent: {}
+[7.651740] (-) TimerEvent: {}
+[7.753167] (-) TimerEvent: {}
+[7.855103] (-) TimerEvent: {}
+[7.957611] (-) TimerEvent: {}
+[8.061189] (-) TimerEvent: {}
+[8.164183] (-) TimerEvent: {}
+[8.266708] (-) TimerEvent: {}
+[8.368225] (-) TimerEvent: {}
+[8.471086] (-) TimerEvent: {}
+[8.572459] (-) TimerEvent: {}
+[8.673629] (-) TimerEvent: {}
+[8.775413] (-) TimerEvent: {}
+[8.878495] (-) TimerEvent: {}
+[8.980392] (-) TimerEvent: {}
+[9.081163] (-) TimerEvent: {}
+[9.182867] (-) TimerEvent: {}
+[9.285696] (-) TimerEvent: {}
+[9.388443] (-) TimerEvent: {}
+[9.491316] (-) TimerEvent: {}
+[9.592533] (-) TimerEvent: {}
+[9.694042] (-) TimerEvent: {}
+[9.795162] (-) TimerEvent: {}
+[9.897282] (-) TimerEvent: {}
+[9.999839] (-) TimerEvent: {}
+[10.100723] (-) TimerEvent: {}
+[10.202255] (-) TimerEvent: {}
+[10.308127] (-) TimerEvent: {}
+[10.409149] (-) TimerEvent: {}
+[10.510027] (-) TimerEvent: {}
+[10.611298] (-) TimerEvent: {}
+[10.712368] (-) TimerEvent: {}
+[10.814490] (-) TimerEvent: {}
+[10.920106] (-) TimerEvent: {}
+[11.021578] (-) TimerEvent: {}
+[11.122993] (-) TimerEvent: {}
+[11.224284] (-) TimerEvent: {}
+[11.325705] (-) TimerEvent: {}
+[11.427922] (-) TimerEvent: {}
+[11.531656] (-) TimerEvent: {}
+[11.635086] (-) TimerEvent: {}
+[11.733905] (tecx_raw_microcontroller_byte_stream_parser_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tecx_raw_microcontroller_byte_stream_parser_pkg', 'build', '--build-base', '/root/tecxcto/ros2/projects/project4/ros2_ws/build/tecx_raw_microcontroller_byte_stream_parser_pkg/build', 'install', '--record', '/root/tecxcto/ros2/projects/project4/ros2_ws/build/tecx_raw_microcontroller_byte_stream_parser_pkg/install.log', '--install-scripts', '$base/lib/tecx_raw_microcontroller_byte_stream_parser_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/tecxcto/ros2/projects/project4/ros2_ws/src/tecx_raw_microcontroller_byte_stream_parser_pkg', 'env': {'DEX2OATBOOTCLASSPATH': '/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/framework-location.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-ondeviceintelligence-platform.jar:/system/framework/framework-nfc.jar:/system/framework/tcmiface.jar:/system/framework/telephony-ext.jar:/system/framework/qcom.fmradio.jar:/system/framework/QPerformance.jar:/system/framework/UxPerformance.jar:/system/framework/WfdCommon.jar:/system/framework/vivo-framework.jar:/system/framework/vivo-media.jar:/system/framework/framework-adapter.jar:/system/framework/soc-framework.jar:/system/framework/vivo-vgcclient.jar:/system/framework/vivo-coworkclient.jar:/apex/com.android.i18n/javalib/core-icu4j.jar', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'EXTERNAL_STORAGE': '/sdcard', 'XDG_CACHE_HOME': '/root/.cache', 'PROOT_L2S_DIR': '/data/data/com.termux/files/usr/var/lib/proot-distro/containers/ubuntu/rootfs/.l2s', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root/tecxcto/ros2/projects/project4/ros2_ws/src/tecx_raw_microcontroller_byte_stream_parser_pkg/tecx_raw_microcontroller_byte_stream_parser_pkg', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'BOOTCLASSPATH': '/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/framework-location.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-ondeviceintelligence-platform.jar:/system/framework/framework-nfc.jar:/system/framework/tcmiface.jar:/system/framework/telephony-ext.jar:/system/framework/qcom.fmradio.jar:/system/framework/QPerformance.jar:/system/framework/UxPerformance.jar:/system/framework/WfdCommon.jar:/system/framework/vivo-framework.jar:/system/framework/vivo-media.jar:/system/framework/framework-adapter.jar:/system/framework/soc-framework.jar:/system/framework/vivo-vgcclient.jar:/system/framework/vivo-coworkclient.jar:/apex/com.android.i18n/javalib/core-icu4j.jar:/apex/com.android.adservices/javalib/framework-adservices.jar:/apex/com.android.adservices/javalib/framework-sdksandbox.jar:/apex/com.android.appsearch/javalib/framework-appsearch.jar:/apex/com.android.bt/javalib/framework-bluetooth.jar:/apex/com.android.configinfrastructure/javalib/framework-configinfrastructure.jar:/apex/com.android.conscrypt/javalib/conscrypt.jar:/apex/com.android.crashrecovery/javalib/framework-crashrecovery.jar:/apex/com.android.devicelock/javalib/framework-devicelock.jar:/apex/com.android.healthfitness/javalib/framework-healthfitness.jar:/apex/com.android.ipsec/javalib/android.net.ipsec.ike.jar:/apex/com.android.media/javalib/updatable-media.jar:/apex/com.android.mediaprovider/javalib/framework-mediaprovider.jar:/apex/com.android.mediaprovider/javalib/framework-pdf.jar:/apex/com.android.mediaprovider/javalib/framework-pdf-v.jar:/apex/com.android.mediaprovider/javalib/framework-photopicker.jar:/apex/com.android.ondevicepersonalization/javalib/framework-ondevicepersonalization.jar:/apex/com.android.os.statsd/javalib/framework-statsd.jar:/apex/com.android.permission/javalib/framework-permission.jar:/apex/com.android.permission/javalib/framework-permission-s.jar:/apex/com.android.profiling/javalib/framework-profiling.jar:/apex/com.android.scheduling/javalib/framework-scheduling.jar:/apex/com.android.sdkext/javalib/framework-sdkextensions.jar:/apex/com.android.tethering/javalib/framework-connectivity.jar:/apex/com.android.tethering/javalib/framework-connectivity-b.jar:/apex/com.android.tethering/javalib/framework-connectivity-t.jar:/apex/com.android.tethering/javalib/framework-tethering.jar:/apex/com.android.uwb/javalib/framework-ranging.jar:/apex/com.android.uwb/javalib/framework-uwb.jar:/apex/com.android.virt/javalib/framework-virtualization.jar:/apex/com.android.wifi/javalib/framework-wifi.jar', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'PULSE_SERVER': '127.0.0.1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ANDROID_DATA': '/data', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/data/data/com.termux/files/usr/bin:/snap/bin', 'ANDROID_I18N_ROOT': '/apex/com.android.i18n', 'ANDROID_ROOT': '/system', 'PYTHONUSERBASE': '/root/.local', 'XDG_DATA_HOME': '/root/.config', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ANDROID_TZDATA_ROOT': '/apex/com.android.tzdata', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/tecxcto/ros2/projects/project4/ros2_ws/build/tecx_raw_microcontroller_byte_stream_parser_pkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/tecxcto/ros2/projects/project4/ros2_ws/build/tecx_raw_microcontroller_byte_stream_parser_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/tecxcto/ros2/projects/project4/ros2_ws/install/tecx_raw_microcontroller_byte_stream_parser_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'MOZ_FAKE_NO_SANDBOX': '1', 'ANDROID_ART_ROOT': '/apex/com.android.art', 'COLCON': '1'}, 'shell': False}
+[11.761020] (-) TimerEvent: {}
+[11.862936] (-) TimerEvent: {}
+[11.964412] (-) TimerEvent: {}
+[12.067787] (-) TimerEvent: {}
+[12.169862] (-) TimerEvent: {}
+[12.275937] (-) TimerEvent: {}
+[12.378408] (-) TimerEvent: {}
+[12.481075] (-) TimerEvent: {}
+[12.584253] (-) TimerEvent: {}
+[12.687381] (-) TimerEvent: {}
+[12.790088] (-) TimerEvent: {}
+[12.892441] (-) TimerEvent: {}
+[12.995001] (-) TimerEvent: {}
+[13.096901] (-) TimerEvent: {}
+[13.198730] (-) TimerEvent: {}
+[13.300936] (-) TimerEvent: {}
+[13.404220] (-) TimerEvent: {}
+[13.506782] (-) TimerEvent: {}
+[13.609922] (-) TimerEvent: {}
+[13.712549] (-) TimerEvent: {}
+[13.816117] (-) TimerEvent: {}
+[13.918204] (-) TimerEvent: {}
+[14.020837] (-) TimerEvent: {}
+[14.125677] (-) TimerEvent: {}
+[14.228032] (-) TimerEvent: {}
+[14.330756] (-) TimerEvent: {}
+[14.434525] (-) TimerEvent: {}
+[14.536994] (-) TimerEvent: {}
+[14.639308] (-) TimerEvent: {}
+[14.741262] (-) TimerEvent: {}
+[14.843570] (-) TimerEvent: {}
+[14.947386] (-) TimerEvent: {}
+[15.050378] (-) TimerEvent: {}
+[15.153204] (-) TimerEvent: {}
+[15.255937] (-) TimerEvent: {}
+[15.358002] (-) TimerEvent: {}
+[15.460492] (-) TimerEvent: {}
+[15.563181] (-) TimerEvent: {}
+[15.666264] (-) TimerEvent: {}
+[15.768317] (-) TimerEvent: {}
+[15.870692] (-) TimerEvent: {}
+[15.972867] (-) TimerEvent: {}
+[16.074629] (-) TimerEvent: {}
+[16.178529] (-) TimerEvent: {}
+[16.282315] (-) TimerEvent: {}
+[16.394263] (-) TimerEvent: {}
+[16.495448] (-) TimerEvent: {}
+[16.596344] (-) TimerEvent: {}
+[16.697714] (-) TimerEvent: {}
+[16.799338] (-) TimerEvent: {}
+[16.900434] (-) TimerEvent: {}
+[17.004216] (-) TimerEvent: {}
+[17.106420] (-) TimerEvent: {}
+[17.208167] (-) TimerEvent: {}
+[17.309631] (-) TimerEvent: {}
+[17.411326] (-) TimerEvent: {}
+[17.513908] (-) TimerEvent: {}
+[17.614462] (-) TimerEvent: {}
+[17.638913] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[17.641458] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'creating ../../build/tecx_raw_microcontroller_byte_stream_parser_pkg/tecx_raw_microcontroller_byte_stream_parser_pkg.egg-info\n'}
+[17.642398] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'writing ../../build/tecx_raw_microcontroller_byte_stream_parser_pkg/tecx_raw_microcontroller_byte_stream_parser_pkg.egg-info/PKG-INFO\n'}
+[17.644851] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/tecx_raw_microcontroller_byte_stream_parser_pkg/tecx_raw_microcontroller_byte_stream_parser_pkg.egg-info/dependency_links.txt\n'}
+[17.647923] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'writing entry points to ../../build/tecx_raw_microcontroller_byte_stream_parser_pkg/tecx_raw_microcontroller_byte_stream_parser_pkg.egg-info/entry_points.txt\n'}
+[17.653567] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'writing requirements to ../../build/tecx_raw_microcontroller_byte_stream_parser_pkg/tecx_raw_microcontroller_byte_stream_parser_pkg.egg-info/requires.txt\n'}
+[17.654615] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/tecx_raw_microcontroller_byte_stream_parser_pkg/tecx_raw_microcontroller_byte_stream_parser_pkg.egg-info/top_level.txt\n'}
+[17.656396] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b"writing manifest file '../../build/tecx_raw_microcontroller_byte_stream_parser_pkg/tecx_raw_microcontroller_byte_stream_parser_pkg.egg-info/SOURCES.txt'\n"}
+[17.674934] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b"reading manifest file '../../build/tecx_raw_microcontroller_byte_stream_parser_pkg/tecx_raw_microcontroller_byte_stream_parser_pkg.egg-info/SOURCES.txt'\n"}
+[17.692324] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b"writing manifest file '../../build/tecx_raw_microcontroller_byte_stream_parser_pkg/tecx_raw_microcontroller_byte_stream_parser_pkg.egg-info/SOURCES.txt'\n"}
+[17.693603] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'running build\n'}
+[17.693891] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'running build_py\n'}
+[17.700683] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'creating /root/tecxcto/ros2/projects/project4/ros2_ws/build/tecx_raw_microcontroller_byte_stream_parser_pkg/build\n'}
+[17.701179] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'creating /root/tecxcto/ros2/projects/project4/ros2_ws/build/tecx_raw_microcontroller_byte_stream_parser_pkg/build/lib\n'}
+[17.702656] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'creating /root/tecxcto/ros2/projects/project4/ros2_ws/build/tecx_raw_microcontroller_byte_stream_parser_pkg/build/lib/tecx_raw_microcontroller_byte_stream_parser_pkg\n'}
+[17.705344] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'copying tecx_raw_microcontroller_byte_stream_parser_pkg/__init__.py -> /root/tecxcto/ros2/projects/project4/ros2_ws/build/tecx_raw_microcontroller_byte_stream_parser_pkg/build/lib/tecx_raw_microcontroller_byte_stream_parser_pkg\n'}
+[17.711066] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'copying tecx_raw_microcontroller_byte_stream_parser_pkg/tecx_raw_microcontroller_byte_stream_parser.py -> /root/tecxcto/ros2/projects/project4/ros2_ws/build/tecx_raw_microcontroller_byte_stream_parser_pkg/build/lib/tecx_raw_microcontroller_byte_stream_parser_pkg\n'}
+[17.714633] (-) TimerEvent: {}
+[17.720004] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'running install\n'}
+[17.722518] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[17.740742] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'creating /root/tecxcto/ros2/projects/project4/ros2_ws/install/tecx_raw_microcontroller_byte_stream_parser_pkg/lib/python3.10/site-packages/tecx_raw_microcontroller_byte_stream_parser_pkg\n'}
+[17.744705] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'copying /root/tecxcto/ros2/projects/project4/ros2_ws/build/tecx_raw_microcontroller_byte_stream_parser_pkg/build/lib/tecx_raw_microcontroller_byte_stream_parser_pkg/__init__.py -> /root/tecxcto/ros2/projects/project4/ros2_ws/install/tecx_raw_microcontroller_byte_stream_parser_pkg/lib/python3.10/site-packages/tecx_raw_microcontroller_byte_stream_parser_pkg\n'}
+[17.755283] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'copying /root/tecxcto/ros2/projects/project4/ros2_ws/build/tecx_raw_microcontroller_byte_stream_parser_pkg/build/lib/tecx_raw_microcontroller_byte_stream_parser_pkg/tecx_raw_microcontroller_byte_stream_parser.py -> /root/tecxcto/ros2/projects/project4/ros2_ws/install/tecx_raw_microcontroller_byte_stream_parser_pkg/lib/python3.10/site-packages/tecx_raw_microcontroller_byte_stream_parser_pkg\n'}
+[17.771313] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'byte-compiling /root/tecxcto/ros2/projects/project4/ros2_ws/install/tecx_raw_microcontroller_byte_stream_parser_pkg/lib/python3.10/site-packages/tecx_raw_microcontroller_byte_stream_parser_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[17.782584] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'byte-compiling /root/tecxcto/ros2/projects/project4/ros2_ws/install/tecx_raw_microcontroller_byte_stream_parser_pkg/lib/python3.10/site-packages/tecx_raw_microcontroller_byte_stream_parser_pkg/tecx_raw_microcontroller_byte_stream_parser.py to tecx_raw_microcontroller_byte_stream_parser.cpython-310.pyc\n'}
+[17.793751] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'running install_data\n'}
+[17.799979] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'creating /root/tecxcto/ros2/projects/project4/ros2_ws/install/tecx_raw_microcontroller_byte_stream_parser_pkg/share/ament_index\n'}
+[17.802878] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'creating /root/tecxcto/ros2/projects/project4/ros2_ws/install/tecx_raw_microcontroller_byte_stream_parser_pkg/share/ament_index/resource_index\n'}
+[17.803266] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'creating /root/tecxcto/ros2/projects/project4/ros2_ws/install/tecx_raw_microcontroller_byte_stream_parser_pkg/share/ament_index/resource_index/packages\n'}
+[17.806728] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'copying resource/tecx_raw_microcontroller_byte_stream_parser_pkg -> /root/tecxcto/ros2/projects/project4/ros2_ws/install/tecx_raw_microcontroller_byte_stream_parser_pkg/share/ament_index/resource_index/packages\n'}
+[17.814846] (-) TimerEvent: {}
+[17.818830] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'copying package.xml -> /root/tecxcto/ros2/projects/project4/ros2_ws/install/tecx_raw_microcontroller_byte_stream_parser_pkg/share/tecx_raw_microcontroller_byte_stream_parser_pkg\n'}
+[17.825046] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.856881] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'Copying ../../build/tecx_raw_microcontroller_byte_stream_parser_pkg/tecx_raw_microcontroller_byte_stream_parser_pkg.egg-info to /root/tecxcto/ros2/projects/project4/ros2_ws/install/tecx_raw_microcontroller_byte_stream_parser_pkg/lib/python3.10/site-packages/tecx_raw_microcontroller_byte_stream_parser_pkg-0.0.0-py3.10.egg-info\n'}
+[17.915034] (-) TimerEvent: {}
+[17.949296] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[18.015293] (-) TimerEvent: {}
+[18.117673] (-) TimerEvent: {}
+[18.183824] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'Installing listener script to /root/tecxcto/ros2/projects/project4/ros2_ws/install/tecx_raw_microcontroller_byte_stream_parser_pkg/lib/tecx_raw_microcontroller_byte_stream_parser_pkg\n'}
+[18.187410] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b'Installing raw_microcont_parser script to /root/tecxcto/ros2/projects/project4/ros2_ws/install/tecx_raw_microcontroller_byte_stream_parser_pkg/lib/tecx_raw_microcontroller_byte_stream_parser_pkg\n'}
+[18.194124] (tecx_raw_microcontroller_byte_stream_parser_pkg) StdoutLine: {'line': b"writing list of installed files to '/root/tecxcto/ros2/projects/project4/ros2_ws/build/tecx_raw_microcontroller_byte_stream_parser_pkg/install.log'\n"}
+[18.218501] (-) TimerEvent: {}
+[18.269738] (tecx_raw_microcontroller_byte_stream_parser_pkg) CommandEnded: {'returncode': 0}
+[18.318929] (-) TimerEvent: {}
+[18.422091] (-) TimerEvent: {}
+[18.518603] (tecx_raw_microcontroller_byte_stream_parser_pkg) JobEnded: {'identifier': 'tecx_raw_microcontroller_byte_stream_parser_pkg', 'rc': 0}
+[18.530133] (-) TimerEvent: {}
+[18.530599] (-) EventReactorShutdown: {}

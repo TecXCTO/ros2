@@ -1,0 +1,4 @@
+[console_scripts]
+listener = tecx_raw_microcontroller_byte_stream_parser_pkg.diagnostic_sub:main
+raw_microcont_parser = tecx_raw_microcontroller_byte_stream_parser_pkg.tecx_raw_microcontroller_byte_stream_parser:main
+
