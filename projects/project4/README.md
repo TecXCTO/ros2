@@ -1,5 +1,6 @@
 Using old, discarded consumer electronics, broken appliances, and old circuit chips is one of the best ways to build an expert-level ROS 2 project. Modern smartphones running Termux have immense processing power, allowing you to use your phone as the "central brain" while converting old device components into smart, network-connected robotic subsystems.
 Here is a comprehensive list of creative, highly technical ROS 2 projects you can build by recycling common household electronics, completely bypassing the need for high-level graphics or simulators.
+
 ------------------------------
 ## 1. The Micro-Lidar Scanner (Recycled DVD/Blu-ray Drive)
 
