@@ -140,6 +140,24 @@ if __name__ == '__main__':
     main()
 ```
 
+# Step : Configure Package Manifests
+You need to tell the universal compilation framework (colcon) where to find your scripts.Open ./ros2_ws/src/tecx_raw_microcontroller_byte_stream_parser/setup.py
+
+```
+nano ~/tecxcto/ros2/projects/project4/ros2_ws/src/tecx_raw_microcontroller_byte_stream_parser/setup.py
+
+# Then modify the entry_points field to map terminal commands directly to your scripts:
+
+```
+    entry_points={
+        'console_scripts': [
+            'talker = tecx_raw_microcontroller_byte_stream_parser.telemetry_pub:main',
+            'listener = tecx_raw_microcontroller_byte_stream_parser.diagnostic_sub:main',
+        ],
+    },
+
+```
+
 # Step : Build and Run Your CodeGo to your workspace root, build your system, and link the configurations:
 ```
 cd ~/tecxcto/ros2/projects/project4/ros2_ws
