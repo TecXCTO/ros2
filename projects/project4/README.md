@@ -49,13 +49,16 @@ Here is a comprehensive list of creative, highly technical ROS 2 projects you ca
 ------------------------------
 ## Architectural Layout: How Termux Talks to Old Chips
 When working with bare electronic chips, you don't need graphics. You communicate purely via data pipes. The standard architecture for all the projects above follows this layout:
+```
 
  [ Old Electronics Chip ] ──(Raw Serial Data over USB/Wi-Fi)──► [ Termux USB/Network Port ]
                                                                         │
                                                                         ▼
  [ ROS 2 Standard Topic ] ◄──(Serialization Node parses bytes)─── [ Linux Dev Loop ]
+```
 
-## Script Example: Raw Microcontroller Byte-Stream Parser
+## Script Example:
+### Raw Microcontroller Byte-Stream Parser
 Here is the core logic template you will use inside Termux to read raw numeric data strings arriving from any old hacked electronic chip over a basic USB-to-Serial adapter cable plugged into your phone:
 
 ```
