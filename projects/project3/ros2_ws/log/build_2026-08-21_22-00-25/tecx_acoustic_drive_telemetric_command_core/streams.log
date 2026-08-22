@@ -1,0 +1,37 @@
+[14.194s] Invoking command in '/root/tecxcto/ros2/projects/project3/ros2_ws/src/tecx_acoustic_drive_telemetric_command_core': PYTHONPATH=/root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tecx_acoustic_drive_telemetric_command_core build --build-base /root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/build install --record /root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/install.log --install-scripts $base/lib/tecx_acoustic_drive_telemetric_command_core --single-version-externally-managed install_data
+[19.080s] running egg_info
+[19.089s] creating ../../build/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core.egg-info
+[19.090s] writing ../../build/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core.egg-info/PKG-INFO
+[19.098s] writing dependency_links to ../../build/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core.egg-info/dependency_links.txt
+[19.103s] writing entry points to ../../build/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core.egg-info/entry_points.txt
+[19.106s] writing requirements to ../../build/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core.egg-info/requires.txt
+[19.109s] writing top-level names to ../../build/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core.egg-info/top_level.txt
+[19.113s] writing manifest file '../../build/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core.egg-info/SOURCES.txt'
+[19.160s] reading manifest file '../../build/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core.egg-info/SOURCES.txt'
+[19.192s] writing manifest file '../../build/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core.egg-info/SOURCES.txt'
+[19.194s] running build
+[19.194s] running build_py
+[19.203s] creating /root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/build
+[19.206s] creating /root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/build/lib
+[19.206s] creating /root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/build/lib/tecx_acoustic_drive_telemetric_command_core
+[19.209s] copying tecx_acoustic_drive_telemetric_command_core/__init__.py -> /root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/build/lib/tecx_acoustic_drive_telemetric_command_core
+[19.221s] copying tecx_acoustic_drive_telemetric_command_core/headphone_teleop_node.py -> /root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/build/lib/tecx_acoustic_drive_telemetric_command_core
+[19.232s] running install
+[19.234s] running install_lib
+[19.249s] creating /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/lib/python3.10/site-packages/tecx_acoustic_drive_telemetric_command_core
+[19.254s] copying /root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/build/lib/tecx_acoustic_drive_telemetric_command_core/__init__.py -> /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/lib/python3.10/site-packages/tecx_acoustic_drive_telemetric_command_core
+[19.259s] copying /root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/build/lib/tecx_acoustic_drive_telemetric_command_core/headphone_teleop_node.py -> /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/lib/python3.10/site-packages/tecx_acoustic_drive_telemetric_command_core
+[19.273s] byte-compiling /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/lib/python3.10/site-packages/tecx_acoustic_drive_telemetric_command_core/__init__.py to __init__.cpython-310.pyc
+[19.285s] byte-compiling /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/lib/python3.10/site-packages/tecx_acoustic_drive_telemetric_command_core/headphone_teleop_node.py to headphone_teleop_node.cpython-310.pyc
+[19.296s] running install_data
+[19.300s] creating /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/share/ament_index
+[19.301s] creating /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/share/ament_index/resource_index
+[19.302s] creating /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/share/ament_index/resource_index/packages
+[19.305s] copying resource/tecx_acoustic_drive_telemetric_command_core -> /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/share/ament_index/resource_index/packages
+[19.311s] copying package.xml -> /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/share/tecx_acoustic_drive_telemetric_command_core
+[19.315s] running install_egg_info
+[19.341s] Copying ../../build/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core.egg-info to /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/lib/python3.10/site-packages/tecx_acoustic_drive_telemetric_command_core-0.0.0-py3.10.egg-info
+[19.437s] running install_scripts
+[19.800s] Installing headline_teleop script to /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/lib/tecx_acoustic_drive_telemetric_command_core
+[19.814s] writing list of installed files to '/root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/install.log'
+[19.954s] Invoked command in '/root/tecxcto/ros2/projects/project3/ros2_ws/src/tecx_acoustic_drive_telemetric_command_core' returned '0': PYTHONPATH=/root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tecx_acoustic_drive_telemetric_command_core build --build-base /root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/build install --record /root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/install.log --install-scripts $base/lib/tecx_acoustic_drive_telemetric_command_core --single-version-externally-managed install_data

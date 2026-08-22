@@ -1,0 +1,6 @@
+source;share/tecx_acoustic_drive_telemetric_command_core/hook/pythonpath.ps1
+source;share/tecx_acoustic_drive_telemetric_command_core/hook/pythonpath.dsv
+source;share/tecx_acoustic_drive_telemetric_command_core/hook/pythonpath.sh
+source;share/tecx_acoustic_drive_telemetric_command_core/hook/ament_prefix_path.ps1
+source;share/tecx_acoustic_drive_telemetric_command_core/hook/ament_prefix_path.dsv
+source;share/tecx_acoustic_drive_telemetric_command_core/hook/ament_prefix_path.sh

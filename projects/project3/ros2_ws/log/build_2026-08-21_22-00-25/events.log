@@ -1,0 +1,239 @@
+[0.000000] (-) TimerEvent: {}
+[0.001791] (tecx_acoustic_drive_telemetric_command_core) JobQueued: {'identifier': 'tecx_acoustic_drive_telemetric_command_core', 'dependencies': OrderedDict()}
+[0.003919] (tecx_acoustic_drive_telemetric_command_core) JobStarted: {'identifier': 'tecx_acoustic_drive_telemetric_command_core'}
+[0.098128] (-) TimerEvent: {}
+[0.206556] (-) TimerEvent: {}
+[0.307798] (-) TimerEvent: {}
+[0.420657] (-) TimerEvent: {}
+[0.522340] (-) TimerEvent: {}
+[0.623360] (-) TimerEvent: {}
+[0.724673] (-) TimerEvent: {}
+[0.825650] (-) TimerEvent: {}
+[0.926810] (-) TimerEvent: {}
+[1.028508] (-) TimerEvent: {}
+[1.129956] (-) TimerEvent: {}
+[1.232048] (-) TimerEvent: {}
+[1.333662] (-) TimerEvent: {}
+[1.435310] (-) TimerEvent: {}
+[1.537956] (-) TimerEvent: {}
+[1.639005] (-) TimerEvent: {}
+[1.741078] (-) TimerEvent: {}
+[1.842560] (-) TimerEvent: {}
+[1.944490] (-) TimerEvent: {}
+[2.046370] (-) TimerEvent: {}
+[2.148176] (-) TimerEvent: {}
+[2.249273] (-) TimerEvent: {}
+[2.350783] (-) TimerEvent: {}
+[2.452016] (-) TimerEvent: {}
+[2.552889] (-) TimerEvent: {}
+[2.654278] (-) TimerEvent: {}
+[2.756859] (-) TimerEvent: {}
+[2.857601] (-) TimerEvent: {}
+[2.959363] (-) TimerEvent: {}
+[3.060083] (-) TimerEvent: {}
+[3.161941] (-) TimerEvent: {}
+[3.264315] (-) TimerEvent: {}
+[3.366389] (-) TimerEvent: {}
+[3.467563] (-) TimerEvent: {}
+[3.568814] (-) TimerEvent: {}
+[3.671936] (-) TimerEvent: {}
+[3.773714] (-) TimerEvent: {}
+[3.876888] (-) TimerEvent: {}
+[3.978785] (-) TimerEvent: {}
+[4.080512] (-) TimerEvent: {}
+[4.181393] (-) TimerEvent: {}
+[4.284238] (-) TimerEvent: {}
+[4.389854] (-) TimerEvent: {}
+[4.492695] (-) TimerEvent: {}
+[4.595150] (-) TimerEvent: {}
+[4.698171] (-) TimerEvent: {}
+[4.800550] (-) TimerEvent: {}
+[4.902855] (-) TimerEvent: {}
+[5.005325] (-) TimerEvent: {}
+[5.111845] (-) TimerEvent: {}
+[5.212916] (-) TimerEvent: {}
+[5.315284] (-) TimerEvent: {}
+[5.417895] (-) TimerEvent: {}
+[5.519226] (-) TimerEvent: {}
+[5.621133] (-) TimerEvent: {}
+[5.725088] (-) TimerEvent: {}
+[5.827049] (-) TimerEvent: {}
+[5.930184] (-) TimerEvent: {}
+[6.031730] (-) TimerEvent: {}
+[6.133777] (-) TimerEvent: {}
+[6.235657] (-) TimerEvent: {}
+[6.338674] (-) TimerEvent: {}
+[6.440766] (-) TimerEvent: {}
+[6.542821] (-) TimerEvent: {}
+[6.644474] (-) TimerEvent: {}
+[6.746346] (-) TimerEvent: {}
+[6.848705] (-) TimerEvent: {}
+[6.951292] (-) TimerEvent: {}
+[7.053626] (-) TimerEvent: {}
+[7.157330] (-) TimerEvent: {}
+[7.259719] (-) TimerEvent: {}
+[7.362079] (-) TimerEvent: {}
+[7.464264] (-) TimerEvent: {}
+[7.566613] (-) TimerEvent: {}
+[7.668441] (-) TimerEvent: {}
+[7.770645] (-) TimerEvent: {}
+[7.872722] (-) TimerEvent: {}
+[7.974480] (-) TimerEvent: {}
+[8.078176] (-) TimerEvent: {}
+[8.181196] (-) TimerEvent: {}
+[8.283668] (-) TimerEvent: {}
+[8.385769] (-) TimerEvent: {}
+[8.488051] (-) TimerEvent: {}
+[8.590993] (-) TimerEvent: {}
+[8.692640] (-) TimerEvent: {}
+[8.794808] (-) TimerEvent: {}
+[8.897993] (-) TimerEvent: {}
+[9.000292] (-) TimerEvent: {}
+[9.101679] (-) TimerEvent: {}
+[9.205472] (-) TimerEvent: {}
+[9.307860] (-) TimerEvent: {}
+[9.410089] (-) TimerEvent: {}
+[9.512658] (-) TimerEvent: {}
+[9.616175] (-) TimerEvent: {}
+[9.718130] (-) TimerEvent: {}
+[9.820120] (-) TimerEvent: {}
+[9.922529] (-) TimerEvent: {}
+[10.024924] (-) TimerEvent: {}
+[10.126930] (-) TimerEvent: {}
+[10.229359] (-) TimerEvent: {}
+[10.331074] (-) TimerEvent: {}
+[10.433569] (-) TimerEvent: {}
+[10.536031] (-) TimerEvent: {}
+[10.638705] (-) TimerEvent: {}
+[10.740483] (-) TimerEvent: {}
+[10.842377] (-) TimerEvent: {}
+[10.944521] (-) TimerEvent: {}
+[11.047313] (-) TimerEvent: {}
+[11.149684] (-) TimerEvent: {}
+[11.251584] (-) TimerEvent: {}
+[11.354343] (-) TimerEvent: {}
+[11.456127] (-) TimerEvent: {}
+[11.558464] (-) TimerEvent: {}
+[11.661411] (-) TimerEvent: {}
+[11.764983] (-) TimerEvent: {}
+[11.867418] (-) TimerEvent: {}
+[11.971072] (-) TimerEvent: {}
+[12.073337] (-) TimerEvent: {}
+[12.175556] (-) TimerEvent: {}
+[12.278757] (-) TimerEvent: {}
+[12.382243] (-) TimerEvent: {}
+[12.484710] (-) TimerEvent: {}
+[12.587372] (-) TimerEvent: {}
+[12.691173] (-) TimerEvent: {}
+[12.793591] (-) TimerEvent: {}
+[12.896312] (-) TimerEvent: {}
+[12.998685] (-) TimerEvent: {}
+[13.101099] (-) TimerEvent: {}
+[13.203044] (-) TimerEvent: {}
+[13.306329] (-) TimerEvent: {}
+[13.409899] (-) TimerEvent: {}
+[13.512410] (-) TimerEvent: {}
+[13.614353] (-) TimerEvent: {}
+[13.717160] (-) TimerEvent: {}
+[13.820030] (-) TimerEvent: {}
+[13.922347] (-) TimerEvent: {}
+[14.025365] (-) TimerEvent: {}
+[14.128829] (-) TimerEvent: {}
+[14.174602] (tecx_acoustic_drive_telemetric_command_core) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tecx_acoustic_drive_telemetric_command_core', 'build', '--build-base', '/root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/build', 'install', '--record', '/root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/install.log', '--install-scripts', '$base/lib/tecx_acoustic_drive_telemetric_command_core', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/tecxcto/ros2/projects/project3/ros2_ws/src/tecx_acoustic_drive_telemetric_command_core', 'env': {'DEX2OATBOOTCLASSPATH': '/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/framework-location.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-ondeviceintelligence-platform.jar:/system/framework/framework-nfc.jar:/system/framework/tcmiface.jar:/system/framework/telephony-ext.jar:/system/framework/qcom.fmradio.jar:/system/framework/QPerformance.jar:/system/framework/UxPerformance.jar:/system/framework/WfdCommon.jar:/system/framework/vivo-framework.jar:/system/framework/vivo-media.jar:/system/framework/framework-adapter.jar:/system/framework/soc-framework.jar:/system/framework/vivo-vgcclient.jar:/system/framework/vivo-coworkclient.jar:/apex/com.android.i18n/javalib/core-icu4j.jar', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'EXTERNAL_STORAGE': '/sdcard', 'XDG_CACHE_HOME': '/root/.cache', 'PROOT_L2S_DIR': '/data/data/com.termux/files/usr/var/lib/proot-distro/containers/ubuntu/rootfs/.l2s', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root/tecxcto/ros2/projects/project3/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'BOOTCLASSPATH': '/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/framework-location.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-ondeviceintelligence-platform.jar:/system/framework/framework-nfc.jar:/system/framework/tcmiface.jar:/system/framework/telephony-ext.jar:/system/framework/qcom.fmradio.jar:/system/framework/QPerformance.jar:/system/framework/UxPerformance.jar:/system/framework/WfdCommon.jar:/system/framework/vivo-framework.jar:/system/framework/vivo-media.jar:/system/framework/framework-adapter.jar:/system/framework/soc-framework.jar:/system/framework/vivo-vgcclient.jar:/system/framework/vivo-coworkclient.jar:/apex/com.android.i18n/javalib/core-icu4j.jar:/apex/com.android.adservices/javalib/framework-adservices.jar:/apex/com.android.adservices/javalib/framework-sdksandbox.jar:/apex/com.android.appsearch/javalib/framework-appsearch.jar:/apex/com.android.bt/javalib/framework-bluetooth.jar:/apex/com.android.configinfrastructure/javalib/framework-configinfrastructure.jar:/apex/com.android.conscrypt/javalib/conscrypt.jar:/apex/com.android.crashrecovery/javalib/framework-crashrecovery.jar:/apex/com.android.devicelock/javalib/framework-devicelock.jar:/apex/com.android.healthfitness/javalib/framework-healthfitness.jar:/apex/com.android.ipsec/javalib/android.net.ipsec.ike.jar:/apex/com.android.media/javalib/updatable-media.jar:/apex/com.android.mediaprovider/javalib/framework-mediaprovider.jar:/apex/com.android.mediaprovider/javalib/framework-pdf.jar:/apex/com.android.mediaprovider/javalib/framework-pdf-v.jar:/apex/com.android.mediaprovider/javalib/framework-photopicker.jar:/apex/com.android.ondevicepersonalization/javalib/framework-ondevicepersonalization.jar:/apex/com.android.os.statsd/javalib/framework-statsd.jar:/apex/com.android.permission/javalib/framework-permission.jar:/apex/com.android.permission/javalib/framework-permission-s.jar:/apex/com.android.profiling/javalib/framework-profiling.jar:/apex/com.android.scheduling/javalib/framework-scheduling.jar:/apex/com.android.sdkext/javalib/framework-sdkextensions.jar:/apex/com.android.tethering/javalib/framework-connectivity.jar:/apex/com.android.tethering/javalib/framework-connectivity-b.jar:/apex/com.android.tethering/javalib/framework-connectivity-t.jar:/apex/com.android.tethering/javalib/framework-tethering.jar:/apex/com.android.uwb/javalib/framework-ranging.jar:/apex/com.android.uwb/javalib/framework-uwb.jar:/apex/com.android.virt/javalib/framework-virtualization.jar:/apex/com.android.wifi/javalib/framework-wifi.jar', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/root/tecxcto/ros2/projects/project3/ros2_ws/src/tecx_acoustic_drive_telemetric_command_core/install:/root/tecxcto/ros2/projects/project3/ros2_ws/install', 'ROS_DISTRO': 'humble', 'PULSE_SERVER': '127.0.0.1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ANDROID_DATA': '/data', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/data/data/com.termux/files/usr/bin:/snap/bin', 'ANDROID_I18N_ROOT': '/apex/com.android.i18n', 'ANDROID_ROOT': '/system', 'PYTHONUSERBASE': '/root/.local', 'XDG_DATA_HOME': '/root/.config', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/root/tecxcto/ros2/projects/project3/ros2_ws/src/tecx_acoustic_drive_telemetric_command_core/install/tecx_acoustic_drive_telemetric_command_core:/opt/ros/humble', 'ANDROID_TZDATA_ROOT': '/apex/com.android.tzdata', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SETUPTOOLS_USE_DISTUTILS': 'stdlib', 'PWD': '/root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/lib/python3.10/site-packages:/root/tecxcto/ros2/projects/project3/ros2_ws/src/tecx_acoustic_drive_telemetric_command_core/install/tecx_acoustic_drive_telemetric_command_core/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'MOZ_FAKE_NO_SANDBOX': '1', 'ANDROID_ART_ROOT': '/apex/com.android.art', 'COLCON': '1'}, 'shell': False}
+[14.239487] (-) TimerEvent: {}
+[14.345829] (-) TimerEvent: {}
+[14.447446] (-) TimerEvent: {}
+[14.549121] (-) TimerEvent: {}
+[14.650601] (-) TimerEvent: {}
+[14.752005] (-) TimerEvent: {}
+[14.853366] (-) TimerEvent: {}
+[14.954557] (-) TimerEvent: {}
+[15.055518] (-) TimerEvent: {}
+[15.157919] (-) TimerEvent: {}
+[15.259166] (-) TimerEvent: {}
+[15.360759] (-) TimerEvent: {}
+[15.462283] (-) TimerEvent: {}
+[15.563763] (-) TimerEvent: {}
+[15.665203] (-) TimerEvent: {}
+[15.766969] (-) TimerEvent: {}
+[15.868496] (-) TimerEvent: {}
+[15.969831] (-) TimerEvent: {}
+[16.072877] (-) TimerEvent: {}
+[16.174611] (-) TimerEvent: {}
+[16.275328] (-) TimerEvent: {}
+[16.378121] (-) TimerEvent: {}
+[16.480135] (-) TimerEvent: {}
+[16.581555] (-) TimerEvent: {}
+[16.682697] (-) TimerEvent: {}
+[16.784034] (-) TimerEvent: {}
+[16.885691] (-) TimerEvent: {}
+[16.986725] (-) TimerEvent: {}
+[17.088295] (-) TimerEvent: {}
+[17.193468] (-) TimerEvent: {}
+[17.295222] (-) TimerEvent: {}
+[17.397214] (-) TimerEvent: {}
+[17.498344] (-) TimerEvent: {}
+[17.599752] (-) TimerEvent: {}
+[17.701761] (-) TimerEvent: {}
+[17.805421] (-) TimerEvent: {}
+[17.907686] (-) TimerEvent: {}
+[18.010262] (-) TimerEvent: {}
+[18.111194] (-) TimerEvent: {}
+[18.212919] (-) TimerEvent: {}
+[18.314704] (-) TimerEvent: {}
+[18.417598] (-) TimerEvent: {}
+[18.520284] (-) TimerEvent: {}
+[18.622724] (-) TimerEvent: {}
+[18.725232] (-) TimerEvent: {}
+[18.827103] (-) TimerEvent: {}
+[18.929693] (-) TimerEvent: {}
+[19.032689] (-) TimerEvent: {}
+[19.083994] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'running egg_info\n'}
+[19.092751] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'creating ../../build/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core.egg-info\n'}
+[19.094247] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'writing ../../build/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core.egg-info/PKG-INFO\n'}
+[19.102053] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'writing dependency_links to ../../build/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core.egg-info/dependency_links.txt\n'}
+[19.107062] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'writing entry points to ../../build/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core.egg-info/entry_points.txt\n'}
+[19.110552] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'writing requirements to ../../build/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core.egg-info/requires.txt\n'}
+[19.112878] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'writing top-level names to ../../build/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core.egg-info/top_level.txt\n'}
+[19.117411] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b"writing manifest file '../../build/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core.egg-info/SOURCES.txt'\n"}
+[19.132843] (-) TimerEvent: {}
+[19.164172] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b"reading manifest file '../../build/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core.egg-info/SOURCES.txt'\n"}
+[19.195958] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b"writing manifest file '../../build/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core.egg-info/SOURCES.txt'\n"}
+[19.198228] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'running build\n'}
+[19.198721] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'running build_py\n'}
+[19.204210] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'creating /root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/build\n'}
+[19.208568] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'creating /root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/build/lib\n'}
+[19.210321] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'creating /root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/build/lib/tecx_acoustic_drive_telemetric_command_core\n'}
+[19.212921] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'copying tecx_acoustic_drive_telemetric_command_core/__init__.py -> /root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/build/lib/tecx_acoustic_drive_telemetric_command_core\n'}
+[19.224905] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'copying tecx_acoustic_drive_telemetric_command_core/headphone_teleop_node.py -> /root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/build/lib/tecx_acoustic_drive_telemetric_command_core\n'}
+[19.233035] (-) TimerEvent: {}
+[19.235835] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'running install\n'}
+[19.238399] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'running install_lib\n'}
+[19.253768] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'creating /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/lib/python3.10/site-packages/tecx_acoustic_drive_telemetric_command_core\n'}
+[19.258040] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'copying /root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/build/lib/tecx_acoustic_drive_telemetric_command_core/__init__.py -> /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/lib/python3.10/site-packages/tecx_acoustic_drive_telemetric_command_core\n'}
+[19.263348] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'copying /root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/build/lib/tecx_acoustic_drive_telemetric_command_core/headphone_teleop_node.py -> /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/lib/python3.10/site-packages/tecx_acoustic_drive_telemetric_command_core\n'}
+[19.277487] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'byte-compiling /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/lib/python3.10/site-packages/tecx_acoustic_drive_telemetric_command_core/__init__.py to __init__.cpython-310.pyc\n'}
+[19.288729] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'byte-compiling /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/lib/python3.10/site-packages/tecx_acoustic_drive_telemetric_command_core/headphone_teleop_node.py to headphone_teleop_node.cpython-310.pyc\n'}
+[19.300266] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'running install_data\n'}
+[19.304107] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'creating /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/share/ament_index\n'}
+[19.305061] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'creating /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/share/ament_index/resource_index\n'}
+[19.306610] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'creating /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/share/ament_index/resource_index/packages\n'}
+[19.309046] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'copying resource/tecx_acoustic_drive_telemetric_command_core -> /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/share/ament_index/resource_index/packages\n'}
+[19.315295] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'copying package.xml -> /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/share/tecx_acoustic_drive_telemetric_command_core\n'}
+[19.319369] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'running install_egg_info\n'}
+[19.333224] (-) TimerEvent: {}
+[19.344848] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'Copying ../../build/tecx_acoustic_drive_telemetric_command_core/tecx_acoustic_drive_telemetric_command_core.egg-info to /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/lib/python3.10/site-packages/tecx_acoustic_drive_telemetric_command_core-0.0.0-py3.10.egg-info\n'}
+[19.434071] (-) TimerEvent: {}
+[19.440451] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'running install_scripts\n'}
+[19.535797] (-) TimerEvent: {}
+[19.638791] (-) TimerEvent: {}
+[19.741001] (-) TimerEvent: {}
+[19.803986] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b'Installing headline_teleop script to /root/tecxcto/ros2/projects/project3/ros2_ws/install/tecx_acoustic_drive_telemetric_command_core/lib/tecx_acoustic_drive_telemetric_command_core\n'}
+[19.817963] (tecx_acoustic_drive_telemetric_command_core) StdoutLine: {'line': b"writing list of installed files to '/root/tecxcto/ros2/projects/project3/ros2_ws/build/tecx_acoustic_drive_telemetric_command_core/install.log'\n"}
+[19.841346] (-) TimerEvent: {}
+[19.943163] (-) TimerEvent: {}
+[19.957951] (tecx_acoustic_drive_telemetric_command_core) CommandEnded: {'returncode': 0}
+[20.044518] (-) TimerEvent: {}
+[20.147207] (-) TimerEvent: {}
+[20.192889] (tecx_acoustic_drive_telemetric_command_core) JobEnded: {'identifier': 'tecx_acoustic_drive_telemetric_command_core', 'rc': 0}
+[20.215612] (-) EventReactorShutdown: {}

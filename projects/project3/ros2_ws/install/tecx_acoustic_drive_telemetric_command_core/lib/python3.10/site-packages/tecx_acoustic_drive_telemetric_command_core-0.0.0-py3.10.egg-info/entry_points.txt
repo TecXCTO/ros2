@@ -1,0 +1,3 @@
+[console_scripts]
+headline_teleop = tecx_acoustic_drive_telemetric_command_core.headphone_teleop_node:main
+
