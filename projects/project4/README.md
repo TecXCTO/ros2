@@ -75,23 +75,10 @@ ros2 pkg create --build-type ament_python tecx_raw_microcontroller_byte_stream_p
 
 # Step : Write the Basic Python Code (Publisher Node)Navigate into your package directory to write the publisher logic.
 
-cd ~/tecxcto/ros2/projects/project4/ros2_ws/src/tecx_raw_microcontroller_byte_stream_parser/
- ~/ros2_ws/src/my_robot_pkg/my_robot_pkg
-touch telemetry_pub.py
+cd ~/tecxcto/ros2/projects/project4/ros2_ws/src/tecx_raw_microcontroller_byte_stream_parser/tecx_raw_microcontroller_byte_stream_parser
+# ~/ros2_ws/src/my_robot_pkg/my_robot_pkg
+touch tecx_raw_microcontroller_byte_stream_parser.py
 chmod +x tecx_raw_microcontroller_byte_stream_parser.py
-
-tecx_raw_microcontroller_byte_stream_parser
-
-# Step : Build and Run Your CodeGo to your workspace root, build your system, and link the configurations:
-cd ~/ros2_ws
-colcon build --packages-select my_robot_pkg
-source install/setup.bash
-
-# To run your code, open Terminal Terminal 1:
-
-# source ./ros2_ws/install/setup.bash
-ros2 run my_robot_pkg talker
-
 
 ```
 ### Raw Microcontroller Byte-Stream Parser
@@ -151,5 +138,20 @@ def main(args=None):
         rclpy.shutdown()
 if __name__ == '__main__':
     main()
+```
+
+# Step : Build and Run Your CodeGo to your workspace root, build your system, and link the configurations:
+```
+cd ~/tecxcto/ros2/projects/project4/ros2_ws
+colcon build --packages-select tecx_raw_microcontroller_byte_stream_parser
+source install/setup.bash
+```
+# To run your code, open Terminal
+# Terminal 1:
+
+```
+cd ~/tecxcto/ros2/projects/project4/ros2_ws
+source ~/tecxcto/ros2/projects/project4/ros2_ws/install/setup.bash
+ros2 run tecx_raw_microcontroller_byte_stream_parser talker
 ```
 ------------------------------
