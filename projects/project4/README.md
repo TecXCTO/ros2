@@ -71,11 +71,11 @@ mkdir -p ~/tecxcto/ros2/projects/project4/ros2_ws/src
 cd ~/tecxcto/ros2/projects/project4/ros2_ws/src
 
 # Create a clean Python package from scratch
-ros2 pkg create --build-type ament_python tecx_raw_microcontroller_byte_stream_parser --dependencies rclpy std_msgs
+ros2 pkg create --build-type ament_python tecx_raw_microcontroller_byte_stream_parser_pkg --dependencies rclpy std_msgs
 
 # Step : Write the Basic Python Code (Publisher Node)Navigate into your package directory to write the publisher logic.
 
-cd ~/tecxcto/ros2/projects/project4/ros2_ws/src/tecx_raw_microcontroller_byte_stream_parser/tecx_raw_microcontroller_byte_stream_parser
+cd ~/tecxcto/ros2/projects/project4/ros2_ws/src/tecx_raw_microcontroller_byte_stream_parser_pkg/tecx_raw_microcontroller_byte_stream_parser_pkg
 # ~/ros2_ws/src/my_robot_pkg/my_robot_pkg
 touch tecx_raw_microcontroller_byte_stream_parser.py
 chmod +x tecx_raw_microcontroller_byte_stream_parser.py
@@ -143,15 +143,15 @@ if __name__ == '__main__':
 You need to tell the universal compilation framework (colcon) where to find your scripts.Open ./ros2_ws/src/tecx_raw_microcontroller_byte_stream_parser/setup.py
 
 ```
-nano ~/tecxcto/ros2/projects/project4/ros2_ws/src/tecx_raw_microcontroller_byte_stream_parser/setup.py
+nano ~/tecxcto/ros2/projects/project4/ros2_ws/src/tecx_raw_microcontroller_byte_stream_parser_pkg/setup.py
 ```
 # Then modify the entry_points field to map terminal commands directly to your scripts:
 
 ```
     entry_points={
         'console_scripts': [
-            'talker = tecx_raw_microcontroller_byte_stream_parser.telemetry_pub:main',
-            'listener = tecx_raw_microcontroller_byte_stream_parser.diagnostic_sub:main',
+            'talker = tecx_raw_microcontroller_byte_stream_parser_pkg.telemetry_pub:main',
+            'listener = tecx_raw_microcontroller_byte_stream_parser_pkg.diagnostic_sub:main',
         ],
     },
 
@@ -160,7 +160,7 @@ nano ~/tecxcto/ros2/projects/project4/ros2_ws/src/tecx_raw_microcontroller_byte_
 # Step : Build and Run Your CodeGo to your workspace root, build your system, and link the configurations:
 ```
 cd ~/tecxcto/ros2/projects/project4/ros2_ws
-colcon build --packages-select tecx_raw_microcontroller_byte_stream_parser
+colcon build --packages-select tecx_raw_microcontroller_byte_stream_parser_pkg
 source install/setup.bash
 ```
 # To run your code, open Terminal
@@ -169,6 +169,6 @@ source install/setup.bash
 ```
 cd ~/tecxcto/ros2/projects/project4/ros2_ws
 source ~/tecxcto/ros2/projects/project4/ros2_ws/install/setup.bash
-ros2 run tecx_raw_microcontroller_byte_stream_parser talker
+ros2 run tecx_raw_microcontroller_byte_stream_parser_pkg talker
 ```
 ------------------------------
