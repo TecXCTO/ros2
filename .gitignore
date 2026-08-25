@@ -1,0 +1,6 @@
+project*/dev_ws/build/
+project*/dev_ws/install/
+project*/dev_ws/log/
+*.pyc
+__pycache__/
+.colcon/
